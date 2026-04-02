@@ -1,62 +1,68 @@
 # 👋 Hi, I'm Hyeonjo Kim
 
+<h1 align="center">Hyeonjo Kim</h1>
+
 <p align="center">
-  💻 Frontend Developer &nbsp; | &nbsp;
-  🚀 AI-powered Web Apps &nbsp; | &nbsp;
-  ⚡ Vibe Coding
+  Frontend Developer · AI Web Applications · Vibe Coding
+</p>
+
+<p align="center">
+  <a href="mailto:lion0110@naver.com">Email</a>
 </p>
 
 ---
 
-## 🚀 About Me
-- 사용자 경험(UX)을 고려한 인터랙티브 웹 개발에 집중
-- AI를 활용한 웹 서비스 및 자동화 프로젝트 구현
-- 새로운 기술을 빠르게 학습하고 실제 서비스에 적용
+## About
+
+Frontend Developer focused on building interactive and scalable web applications.  
+Interested in integrating AI into real-world services and improving user experience through thoughtful UI/UX design.
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript"/>
-<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
-
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css"/>
 </p>
 
 ---
 
-## 📂 Projects
+## Projects
 
-### 🤖 AI Code Review Web App
-- AI 기반 코드 분석 및 개선 피드백 제공
-- 사용자 입력 코드에 대한 실시간 리뷰 시스템
+### AI Code Review Web App
+AI-powered web application that analyzes code and provides structured feedback and improvement suggestions.
 
-### 🌐 Interactive Portfolio Website
-- 애니메이션 기반 UI/UX 구현
-- 반응형 웹 디자인 및 사용자 경험 최적화
+- Real-time code review using AI API  
+- Structured feedback (Issues / Improvements / Refactored Code)  
+- Clean and responsive UI  
 
 ---
 
-## 📊 GitHub Activity
+### Interactive Portfolio Website
+Personal portfolio website with advanced UI interactions and responsive design.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kimhjo00&show_icons=true&theme=default"/>
+- Animation-based UI using modern frontend tools  
+- Optimized for performance and user experience  
+
+---
+
+## GitHub Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=kimhjo00&show_icons=true"/>
 </p>
 
 ---
 
-## 📫 Contact
+## Contact
 
-<p align="center">
-  📧 lion0110@naver.com
-</p>
+- Email: lion0110@naver.com
 
 ---
 
-## 💡 Goal
+## Goal
 
-> AI와 프론트엔드를 결합하여  
-> 사용자에게 실질적인 가치를 제공하는 웹 서비스를 개발합니다.
+Building AI-powered web services that deliver real value to users.
