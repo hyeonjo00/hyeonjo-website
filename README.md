@@ -1,5 +1,3 @@
-# 👋 Hi, I'm Hyeonjo Kim
-
 <h1 align="center">Hyeonjo Kim</h1>
 
 <p align="center">
@@ -7,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:lion0110@naver.com">Email</a>
+  <a href="mailto:lion0110@naver.com">Email</a> · 010-2813-3325
 </p>
 
 ---
@@ -15,54 +13,43 @@
 ## About
 
 Frontend Developer focused on building interactive and scalable web applications.  
-Interested in integrating AI into real-world services and improving user experience through thoughtful UI/UX design.
+Passionate about integrating AI into real-world services and improving user experience.
 
 ---
 
 ## Tech Stack
 
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,js,tailwind" />
 </p>
 
 ---
 
 ## Projects
 
-### AI Code Review Web App
-AI-powered web application that analyzes code and provides structured feedback and improvement suggestions.
-
-- Real-time code review using AI API  
-- Structured feedback (Issues / Improvements / Refactored Code)  
-- Clean and responsive UI  
-
----
-
-### Interactive Portfolio Website
-Personal portfolio website with advanced UI interactions and responsive design.
-
-- Animation-based UI using modern frontend tools  
-- Optimized for performance and user experience  
+> 🚧 Currently building projects focused on AI-powered web applications.
 
 ---
 
 ## GitHub Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=kimhjo00&show_icons=true"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kimhjo00&show_icons=true&hide_border=true"/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimhjo00&layout=compact&hide_border=true"/>
 </p>
 
 ---
 
 ## Contact
 
-- Email: lion0110@naver.com
+<p align="center">
+  📧 lion0110@naver.com <br/>
+  📱 +82 10-2813-3325
+</p>
 
 ---
 
 ## Goal
 
-Building AI-powered web services that deliver real value to users.
+> Building AI-powered web services that deliver real value.
