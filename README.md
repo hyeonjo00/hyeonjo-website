@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:lion0110@naver.com">Email</a> · 010-2813-3325
+  <a href="mailto:lion0110@naver.com">Email</a> · +82 10-2813-3325
 </p>
 
 ---
