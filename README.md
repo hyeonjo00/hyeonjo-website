@@ -1,4 +1,4 @@
-<img width="1202" height="282" alt="image" src="https://github.com/user-attachments/assets/83b55bb7-0f7c-480c-96f3-74d5d351cc22" /><h1 align="center">Hyeonjo Kim</h1>
+<h1 align="center">Hyeonjo Kim</h1>
 
 <p align="center">
   Frontend Developer · AI Web Applications · Vibe Coding
@@ -35,6 +35,11 @@ Passionate about integrating AI into real-world services and improving user expe
   OpenAI API
 </p>
 
+### 💻 Programming Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=c,java,python" />
+</p>
+
 ### ☁️ Deployment & Tools
 <p>
   <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode" />
@@ -47,6 +52,7 @@ Passionate about integrating AI into real-world services and improving user expe
 ---
 
 ## Projects
+
 ### 🚀 ToS Change Tracker (AI + Chrome Extension)
 
 A web service and Chrome extension that detects changes in Terms of Service / Privacy Policies  
@@ -92,9 +98,9 @@ An AI-powered tool that reviews code and suggests improvements.
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hyeonjo00&show_icons=true&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=hyeonjo00&show_icons=true&theme=tokyonight"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
