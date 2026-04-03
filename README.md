@@ -26,8 +26,45 @@ Passionate about integrating AI into real-world services and improving user expe
 ---
 
 ## Projects
+### 🚀 ToS Change Tracker (AI + Chrome Extension)
 
-> 🚧 Currently building projects focused on AI-powered web applications.
+AI 기반으로 약관(Privacy Policy / ToS)의 변경 사항을 자동 감지하고  
+핵심 변경 내용과 위험도를 분석하는 웹 서비스 + 크롬 확장 프로그램
+
+**🔹 주요 기능**
+- Diff 기반 변경 내용 자동 추출
+- GPT를 활용한 변경 요약 및 위험도 분석
+- 웹사이트 접속 시 크롬 확장에서 즉시 분석 가능
+
+**🔹 기술 스택**
+- Next.js (App Router)
+- OpenAI API (GPT)
+- Chrome Extension (Manifest v3)
+- Vercel Deployment
+
+**🔹 링크**
+- 🌐 Demo: https://tos-change-tracker.vercel.app/
+- 💻 GitHub: https://github.com/hyeonjo00/tos-change-tracker
+
+---
+
+### 🤖 AI Code Review Assistant
+
+코드를 입력하면 AI가 자동으로 리뷰하고 개선 방향을 제안하는 웹 서비스
+
+**🔹 주요 기능**
+- 코드 품질 분석 및 개선 제안
+- 가독성, 성능, 유지보수 관점 리뷰
+- 다양한 언어 코드 지원
+
+**🔹 기술 스택**
+- Next.js
+- OpenAI API
+- Tailwind CSS
+
+**🔹 링크**
+- 🌐 Demo: https://ai-code-review-lac-seven.vercel.app/
+- 💻 GitHub: https://github.com/hyeonjo00/ai-code-review
 
 ---
 
