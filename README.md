@@ -98,9 +98,9 @@ An AI-powered tool that reviews code and suggests improvements.
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hyeonjo00&show_icons=true&theme=tokyonight"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hyeonjo00&show_icons=true&theme=tokyonight" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&theme=tokyonight"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&theme=tokyonight" />
 </p>
 
 ---
