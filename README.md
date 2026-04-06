@@ -121,27 +121,33 @@ A premium desktop blackjack simulator built with JavaFX, featuring real-time str
 **Tech**  
 Java, JavaFX, FXML, CSS
 
-**Gameplay Showcase**
+## Gameplay Showcase
 
-**Premium Table Theme**  
+### Premium Table Theme
 Demonstrates the premium casino-style JavaFX table UI and initial game flow.
 
-![Theme Demo](screenshots/blackjack_starttheme.gif)
+![Theme Demo](./screenshots/blackjack_starttheme.gif)
 
-**Hit / Stand Decision Flow**  
+---
+
+### Hit / Stand Decision Flow
 Shows real-time AI recommendation updates during player decisions.
 
-![Hit Stand Demo](screenshots/blackjack_hitstand.gif)
+![Hit Stand Demo](./screenshots/blackjack_hitstand.gif)
 
-**Double Down Action**  
+---
+
+### Double Down Action
 Demonstrates doubled bet handling and EV-based decision support.
 
-![Double Down Demo](screenshots/blackjack_doubledown.gif)
+![Double Down Demo](./screenshots/blackjack_doubledown.gif)
 
-**Split Hand Management**  
+---
+
+### Split Hand Management
 Shows multi-hand gameplay, active hand switching, and AI split analysis.
 
-![Split Demo](screenshots/blackjack_split.gif)
+![Split Demo](./screenshots/blackjack_split.gif)
 
 **Links**  
 GitHub: https://github.com/hyeonjo00/blackjack-engine-java
