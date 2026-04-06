@@ -151,3 +151,9 @@ GitHub: https://github.com/hyeonjo00/blackjack-engine-java
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hyeonjo00&show_icons=true&theme=tokyonight" />
 </p>
+
+## Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&theme=tokyonight&langs_count=8" />
+</p>
