@@ -142,8 +142,9 @@ Java, JavaFX, FXML, CSS
 ![Split Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_split.gif)
 
 ## Technical Whitepaper
--  [English Whitepaper](./docs/premium-javafx-blackjack-engine-whitepaper.pdf)
--  [Korean Whitepaper](./docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
+
+- [Open English PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
+- [Open Korean PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
 
 **Links**  
 GitHub: https://github.com/hyeonjo00/blackjack-engine-java
