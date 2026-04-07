@@ -141,10 +141,13 @@ Java, JavaFX, FXML, CSS
 ### Split Hand Management
 ![Split Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_split.gif)
 
-## Technical Whitepaper
 
-- [Open English PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
-- [Open Korean PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
+## Documentation
+
+Premium software engineering whitepapers covering the Blackjack Engine architecture, EV strategy logic, split recursion, UI-state synchronization, and optimization roadmap.
+
+- [English Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
+- [Korean Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
 
 **Links**  
 GitHub: https://github.com/hyeonjo00/blackjack-engine-java
