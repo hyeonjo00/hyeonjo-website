@@ -113,24 +113,55 @@ Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, OpenAI API, Vercel
 ---
 
 ### Chart Insight Assistant
-株式・暗号資産チャートのスクリーンショットを分析するAIチャートインサイトSaaSです。
+AI を活用した株式・暗号資産チャートスクリーンショット分析 SaaS。
 
-チャート画像をアップロードし、AIによる市場バイアス分析を実行して、構造化されたトレードインサイトを確認できるMVPを構築しました。
+Chart Insight Assistant は、ユーザーが市場チャートのスクリーンショットをアップロードし、OpenAI による慎重なシナリオベース分析を実行して、構造化されたトレードインサイトをダークテーマ UI で確認できる Next.js アプリケーションです。
 
-**Highlights**
-- ドラッグ＆ドロップによるスクリーンショットアップロード
-- OpenAI Visionベースのチャート解釈
-- バイアス、信頼度、エントリーゾーン、無効化ライン、利確ポイントなどの構造化出力
-- localStorageによるセッション履歴保存
-- AdSense対応の収益化構造
-- Vercelでの本番デプロイ
+<p align="center">
+  <a href="https://chart-insight-assistant.vercel.app">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/home.png" alt="Chart Insight Assistant ホーム画面" width="100%" />
+  </a>
+</p>
 
-**Tech**  
+**主な機能**
+- ドラッグアンドドロップによるチャートスクリーンショットアップロード
+- PNG、JPG、JPEG、WEBP 画像のプレビューとファイル検証
+- サーバーサイド OpenAI チャート分析 API ルート
+- 構造化された分析結果: Bias、Confidence、Entry Zone、Invalidation Zone、Take Profit Targets、Summary
+- 将来の価格変動を保証しない慎重なシナリオベースの市場解釈
+- `localStorage` によるローカル分析履歴の保存
+- クリーンなダークテーマのレスポンシブ UI
+- Google AdSense 対応の収益化構成
+- `ads.txt` サイト認証対応
+- 英語 / 韓国語 / 日本語 README ドキュメント
+
+#### プロダクト画面
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analyze.png" alt="Chart Insight Assistant アップロード画面" width="49%" />
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analysis-result.png" alt="Chart Insight Assistant 分析結果画面" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/history.png" alt="Chart Insight Assistant 履歴画面" width="100%" />
+</p>
+
+**技術スタック**  
 Next.js, TypeScript, Tailwind CSS, OpenAI API, Vercel, Google AdSense
 
-**Links**
+**アーキテクチャ**
+- `app/api/analyze/route.ts`: サーバーサイド OpenAI 分析リクエストを処理
+- `components/chart-upload-panel.tsx`: アップロード、プレビュー、API 呼び出し、結果表示、ローカル履歴保存の流れを管理
+- `lib/analysis-history.ts`: 完了した分析結果をブラウザ `localStorage` に保存
+- `components/ad-banner.tsx`: 再利用可能な AdSense 対応広告スロットを提供
+
+**リンク**
 - Demo: https://chart-insight-assistant.vercel.app
 - GitHub: https://github.com/hyeonjo00/chart-insight-assistant
+- English README: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/README.en.md
+- Korean README: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/README.ko.md
+- Japanese README: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/README.ja.md
+
 
 ---
 
