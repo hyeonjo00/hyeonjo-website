@@ -50,6 +50,38 @@ Interested in turning practical problems into deployable products using Next.js,
 
 ## Projects
 
+### Chat Paper AI
+Korean-first AI SaaS platform that turns KakaoTalk and AI conversation logs into academic-style research papers.
+
+<p align="center">
+  <a href="https://chat-paper-platform-iota.vercel.app/">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/chat-paper-platform/main/docs/screenshots/home-dark.png" alt="Chat Paper AI desktop preview" width="100%" />
+  </a>
+</p>
+
+**Highlights**
+- KakaoTalk `.zip` / `.txt` upload and conversation parsing
+- AI-powered conversation analysis and academic paper generation
+- Research dashboard for generated paper insights
+- Journal-style academic paper reader
+- Guest-first workflow without login friction
+- Korean / Japanese / English UI support
+- Dark mode ready responsive SaaS interface
+- Privacy-conscious flow with raw uploads not permanently stored
+
+**Tech**  
+Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, OpenAI API, Vercel
+
+**Documentation**
+- [Technical Whitepaper (EN)](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-en.md)
+- [Technical Whitepaper (KO)](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-ko.md)
+
+**Links**
+- Demo: https://chat-paper-platform-iota.vercel.app/
+- GitHub: https://github.com/hyeonjo00/chat-paper-platform
+
+---
+
 ### Chart Insight Assistant
 AI-powered stock and crypto chart screenshot analysis SaaS.
 
@@ -66,9 +98,9 @@ Built an end-to-end MVP that allows users to upload chart screenshots, run AI-po
 **Tech**  
 Next.js, TypeScript, Tailwind CSS, OpenAI API, Vercel, Google AdSense
 
-**Links**  
-Demo: https://chart-insight-assistant.vercel.app  
-GitHub: https://github.com/hyeonjo00/chart-insight-assistant
+**Links**
+- Demo: https://chart-insight-assistant.vercel.app
+- GitHub: https://github.com/hyeonjo00/chart-insight-assistant
 
 ---
 
@@ -83,9 +115,9 @@ Service + Chrome extension for tracking Terms of Service and privacy policy upda
 **Tech**  
 Next.js, OpenAI API, Chrome Extension (Manifest v3), Vercel
 
-**Links**  
-Demo: https://tos-change-tracker.vercel.app/  
-GitHub: https://github.com/hyeonjo00/tos-change-tracker
+**Links**
+- Demo: https://tos-change-tracker.vercel.app/
+- GitHub: https://github.com/hyeonjo00/tos-change-tracker
 
 ---
 
@@ -100,14 +132,13 @@ AI-assisted code review tool for fast quality feedback.
 **Tech**  
 Next.js, OpenAI API, Tailwind CSS
 
-**Links**  
-Demo: https://ai-code-review-lac-seven.vercel.app/  
-GitHub: https://github.com/hyeonjo00/ai-code-review
+**Links**
+- Demo: https://ai-code-review-lac-seven.vercel.app/
+- GitHub: https://github.com/hyeonjo00/ai-code-review
 
 ---
 
 ### Premium JavaFX Blackjack Simulator
-
 A premium desktop blackjack simulator built with JavaFX, featuring real-time strategy analysis, advanced gameplay actions, and a casino-style animated UI.
 
 **Highlights**
@@ -121,30 +152,40 @@ A premium desktop blackjack simulator built with JavaFX, featuring real-time str
 **Tech**  
 Java, JavaFX, FXML, CSS
 
-## Gameplay Showcase
+#### Gameplay Showcase
 
-### Premium Table Theme
+**Premium Table Theme**
+
 ![Theme Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_starttheme.gif)
 
----
+**Hit / Stand Decision Flow**
 
-### Hit / Stand Decision Flow
 ![Hit Stand Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_hitstand.gif)
 
----
+**Double Down Action**
 
-### Double Down Action
 ![Double Down Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_doubledown.gif)
 
----
+**Split Hand Management**
 
-### Split Hand Management
 ![Split Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_split.gif)
 
-## MiniDB Studio
+#### Documentation
 
-> A lightweight database management studio built in pure C.  
-> This project combines a reusable storage engine, B+ Tree indexing, WAL-style recovery, and a native raylib desktop UI.
+Premium software engineering whitepapers covering the Blackjack Engine architecture, EV strategy logic, split recursion, UI-state synchronization, and optimization roadmap.
+
+- [English Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
+- [Korean Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
+
+**Links**
+- GitHub: https://github.com/hyeonjo00/blackjack-engine-java
+
+---
+
+### MiniDB Studio
+A lightweight database management studio built in pure C.
+
+This project combines a reusable storage engine, B+ Tree indexing, WAL-style recovery, and a native raylib desktop UI.
 
 <p align="center">
   <a href="https://github.com/hyeonjo00/c-mini-db-engine">
@@ -158,6 +199,7 @@ Java, JavaFX, FXML, CSS
   <img src="https://img.shields.io/badge/Engine-B%2B%20Tree%20%2B%20WAL-60A5FA?style=for-the-badge" alt="B+ Tree and WAL" />
 </p>
 
+**Highlights**
 - Two-layer architecture with a pure C11 storage engine and a separate native desktop UI
 - Hash indexes on `id` and `department`, plus B+ Tree indexes on `id` and `age`
 - Lightweight query optimizer for exact lookups, range scans, and ordered traversal
@@ -175,15 +217,7 @@ Java, JavaFX, FXML, CSS
 - README: https://github.com/hyeonjo00/c-mini-db-engine/blob/main/README.md
 - Whitepaper (EN): https://github.com/hyeonjo00/c-mini-db-engine/blob/main/docs/minidb-studio-algorithm-whitepaper-en.pdf
 
-## Documentation
-
-Premium software engineering whitepapers covering the Blackjack Engine architecture, EV strategy logic, split recursion, UI-state synchronization, and optimization roadmap.
-
-- [English Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
-- [Korean Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
-
-**Links**  
-GitHub: https://github.com/hyeonjo00/blackjack-engine-java
+---
 
 ## GitHub Stats
 
