@@ -29,3 +29,235 @@
 フロントエンドアプリケーション、AIプロダクト、開発者向けツール、ブラウザ拡張、デスクトップソフトウェア、低レイヤーのシステム開発まで幅広く取り組んでいます。きれいなUX、信頼できるアーキテクチャ、素早い改善サイクル、そして実際に公開できる完成度を重視しています。
 
 最近は Next.js、TypeScript、OpenAI API、Claude、JavaFX、Chrome Extension、Prisma、PostgreSQL、C、Java を使ったプロジェクトに取り組んでいます。
+
+## About
+
+アイデアを、実際に使えるプロダクトやシステムへ落とし込むことを大切にしている開発者です。
+
+フロントエンドアプリケーション、AIプロダクト、開発者向けツール、ブラウザ拡張、デスクトップソフトウェア、低レイヤーのシステム開発まで幅広く取り組んでいます。きれいなUX、信頼できるアーキテクチャ、素早い改善サイクル、そして実際に公開できる完成度を重視しています。
+
+最近は Next.js、TypeScript、OpenAI API、Claude、JavaFX、Chrome Extension、Prisma、PostgreSQL、C、Java を使ったプロジェクトに取り組んでいます。
+
+---
+
+## Tech Stack
+
+### Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
+</p>
+
+### Backend & Database
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" />
+</p>
+
+### AI & Automation
+<p>
+  <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
+  <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+</p>
+
+### Desktop & Systems
+<p>
+  <img src="https://skillicons.dev/icons?i=java,c" />
+  <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
+  <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
+</p>
+
+### Browser & Extensions
+<p>
+  <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
+  <img src="https://img.shields.io/badge/Manifest_V3-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
+</p>
+
+### Deployment & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
+</p>
+
+---
+
+## Projects
+
+### Chat Paper AI
+KakaoTalkやAI会話ログを、学術論文スタイルの文書へ変換する韓国語ファーストのAI SaaSプラットフォームです。
+
+<p align="center">
+  <a href="https://chat-paper-platform-iota.vercel.app/">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/chat-paper-platform/main/docs/screenshots/home-dark.png" alt="Chat Paper AI desktop preview" width="100%" />
+  </a>
+</p>
+
+**Highlights**
+- KakaoTalk `.zip` / `.txt` のアップロードと会話解析
+- AIによる会話分析と学術論文生成
+- 生成された論文インサイトを確認できる研究ダッシュボード
+- ジャーナル風の学術論文リーダー
+- ログインなしで使えるゲストファーストな体験
+- 韓国語 / 日本語 / 英語 UI 対応
+- ダークモード対応のレスポンシブSaaSインターフェース
+- 元のアップロードファイルを永続保存しないプライバシー配慮型フロー
+
+**Tech**  
+Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, OpenAI API, Vercel
+
+**Documentation**
+- [Technical Whitepaper EN](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-en.md)
+- [Technical Whitepaper KO](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-ko.md)
+
+**Links**
+- Demo: https://chat-paper-platform-iota.vercel.app/
+- GitHub: https://github.com/hyeonjo00/chat-paper-platform
+
+---
+
+### Chart Insight Assistant
+株式・暗号資産チャートのスクリーンショットを分析するAIチャートインサイトSaaSです。
+
+チャート画像をアップロードし、AIによる市場バイアス分析を実行して、構造化されたトレードインサイトを確認できるMVPを構築しました。
+
+**Highlights**
+- ドラッグ＆ドロップによるスクリーンショットアップロード
+- OpenAI Visionベースのチャート解釈
+- バイアス、信頼度、エントリーゾーン、無効化ライン、利確ポイントなどの構造化出力
+- localStorageによるセッション履歴保存
+- AdSense対応の収益化構造
+- Vercelでの本番デプロイ
+
+**Tech**  
+Next.js, TypeScript, Tailwind CSS, OpenAI API, Vercel, Google AdSense
+
+**Links**
+- Demo: https://chart-insight-assistant.vercel.app
+- GitHub: https://github.com/hyeonjo00/chart-insight-assistant
+
+---
+
+### ToS Change Tracker
+利用規約とプライバシーポリシーの変更を追跡するWebサービス兼Chrome拡張機能です。
+
+**Highlights**
+- 自動差分検出
+- AIによる変更要約とリスク分析
+- Chrome拡張によるワンクリックワークフロー
+
+**Tech**  
+Next.js, OpenAI API, Chrome Extension Manifest V3, Vercel
+
+**Links**
+- Demo: https://tos-change-tracker.vercel.app/
+- GitHub: https://github.com/hyeonjo00/tos-change-tracker
+
+---
+
+### AI Code Review Assistant
+素早い品質フィードバックを提供するAI支援コードレビュー tool です。
+
+**Highlights**
+- 可読性とパフォーマンス改善の提案
+- 複数プログラミング言語対応
+- 本番利用を意識したレビューUI
+
+**Tech**  
+Next.js, OpenAI API, Tailwind CSS
+
+**Links**
+- Demo: https://ai-code-review-lac-seven.vercel.app/
+- GitHub: https://github.com/hyeonjo00/ai-code-review
+
+---
+
+### Premium JavaFX Blackjack Simulator
+JavaFXで構築したプレミアムデスクトップBlackjackシミュレーターです。リアルタイム戦略分析、高度なゲームアクション、カジノ風のアニメーションUIを備えています。
+
+**Highlights**
+- リアルタイムAI戦略分析
+- Hit / Stand / Double / Split 対応
+- 期待EV、バーストリスク、ディーラーのバースト確率を表示
+- セッション保存 / 読み込みと統計エクスポート
+- アニメーション付きカード配布フローを備えたプレミアムカジノ風UI
+- マルチハンドSplit対応と推薦精度トラッキング
+
+**Tech**  
+Java, JavaFX, FXML, CSS
+
+#### Gameplay Showcase
+
+**Premium Table Theme**
+
+![Theme Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_starttheme.gif)
+
+**Hit / Stand Decision Flow**
+
+![Hit Stand Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_hitstand.gif)
+
+**Double Down Action**
+
+![Double Down Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_doubledown.gif)
+
+**Split Hand Management**
+
+![Split Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_split.gif)
+
+#### Documentation
+
+Blackjack Engineのアーキテクチャ、EV戦略ロジック、Split再帰処理、UI状態同期、最適化ロードマップをまとめたソフトウェアエンジニアリング技術白書です。
+
+- [English Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
+- [Korean Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
+
+**Links**
+- GitHub: https://github.com/hyeonjo00/blackjack-engine-java
+
+---
+
+### MiniDB Studio
+Pure Cで構築した軽量データベース管理スタジオです。
+
+再利用可能なストレージエンジン、B+ Treeインデックス、WAL風リカバリ、raylibベースのネイティブデスクトップUIを組み合わせたプロジェクトです。
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/c-mini-db-engine">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/c-mini-db-engine/main/docs/studio-overview.svg" alt="MiniDB Studio overview" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C-C11-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C11" />
+  <img src="https://img.shields.io/badge/UI-raylib-1F2937?style=for-the-badge" alt="raylib" />
+  <img src="https://img.shields.io/badge/Engine-B%2B%20Tree%20%2B%20WAL-60A5FA?style=for-the-badge" alt="B+ Tree and WAL" />
+</p>
+
+**Highlights**
+- Pure C11のストレージエンジンと独立したネイティブデスクトップUIによる2層アーキテクチャ
+- `id`、`department` のHash indexと、`id`、`age` のB+ Tree index
+- exact lookup、range scan、ordered traversalに対応した軽量クエリオプティマイザ
+- CSV snapshot + WAL replayによるリカバリモデル
+- SQLワークスペース、結果グリッド、インデックスエクスプローラー、ストレージブラウザー、パフォーマンスダッシュボードを備えたStudio型ワークフロー
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/c-mini-db-engine">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/c-mini-db-engine/main/docs/studio-benchmark.svg" alt="MiniDB Studio benchmark dashboard" width="100%" />
+  </a>
+</p>
+
+**Links**
+- Repository: https://github.com/hyeonjo00/c-mini-db-engine
+- README: https://github.com/hyeonjo00/c-mini-db-engine/blob/main/README.md
+- Whitepaper EN: https://github.com/hyeonjo00/c-mini-db-engine/blob/main/docs/minidb-studio-algorithm-whitepaper-en.pdf
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hyeonjo00&show_icons=true&theme=tokyonight" />
+</p>
+
+## Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&theme=tokyonight&langs_count=8" />
+</p>
+
