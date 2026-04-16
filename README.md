@@ -1,20 +1,27 @@
 <h1 align="center">Hyeonjo Kim</h1>
 
 <p align="center">
-  Frontend Developer focused on AI-powered web products
+  Building polished software products across web, AI, tools, and desktop systems.
 </p>
 
 <p align="center">
-  <a href="mailto:lion0110@naver.com">lion0110@naver.com</a>
+  <a href="mailto:lion0110@naver.com">Email</a>
+  ·
+  <a href="https://github.com/hyeonjo00">GitHub</a>
+  ·
+  <a href="https://chat-paper-platform-iota.vercel.app/">Latest Project</a>
 </p>
 
 ---
 
 ## About
 
-Frontend developer building production-ready web applications with a strong focus on AI integration, UX, and scalable frontend architecture.
+I build practical software products that turn ideas into usable, deployable systems.
 
-Interested in turning practical problems into deployable products using Next.js, OpenAI API, browser extensions, and modern frontend tooling.
+My work spans frontend applications, AI-powered products, developer tools, browser extensions, desktop software, and low-level systems. I care about clean UX, reliable architecture, fast iteration, and shipping projects that feel complete enough to be used in the real world.
+
+Recently, I have been working with Next.js, TypeScript, OpenAI API, Claude, JavaFX, Chrome Extension, Prisma, PostgreSQL, C, and Java.
+
 
 ---
 
