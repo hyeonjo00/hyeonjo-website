@@ -182,20 +182,35 @@ Next.js, OpenAI API, Chrome Extension Manifest V3, Vercel
 
 ---
 
-### AI Code Review Assistant
-빠른 품질 피드백을 제공하는 AI 기반 코드 리뷰 도구입니다.
+## AI 코드 리뷰
 
-**주요 기능**
-- 가독성 및 성능 개선 제안
-- 여러 프로그래밍 언어 지원
-- 프로덕션 수준의 리뷰 UI
+![AI 코드 리뷰 화면](https://ai-code-review-lac-seven.vercel.app/screenshots/ai-code-review.png)
 
-**기술**  
-Next.js, OpenAI API, Tailwind CSS
+AI 코드 리뷰는 OpenAI API를 활용해 JavaScript 또는 TypeScript 코드를 분석하고, 문제점과 개선 아이디어, 수정 예시 코드를 제공하는 Next.js 기반 웹 애플리케이션입니다. 사용자는 코드를 붙여 넣고 버튼을 누르는 것만으로 구조화된 AI 리뷰 결과를 받을 수 있습니다.
 
-**링크**
-- Demo: https://ai-code-review-lac-seven.vercel.app/
-- GitHub: https://github.com/hyeonjo00/ai-code-review
+### 주요 기능
+
+- 코드 입력 후 AI 리뷰 요청
+- 문제점, 개선점, 수정 예시 코드 제공
+- 리뷰 결과 클립보드 복사
+- 샘플 코드 불러오기
+- 서버 라우트 핸들러를 통한 OpenAI API 키 보호
+- README 스크린샷과 기술백서 문서화
+
+### 기술 스택
+
+Next.js 16, React 19, TypeScript, Tailwind CSS, OpenAI Responses API, react-syntax-highlighter
+
+### 기술백서
+
+- [한국어 기술백서](https://github.com/hyeonjo00/ai-code-review/blob/main/docs/TECHNICAL_WHITEPAPER.ko.md)
+- [English Technical Whitepaper](https://github.com/hyeonjo00/ai-code-review/blob/main/docs/TECHNICAL_WHITEPAPER.en.md)
+
+### 링크
+
+- Repository: [GitHub](https://github.com/hyeonjo00/ai-code-review)
+- Demo: [https://ai-code-review-lac-seven.vercel.app/](https://ai-code-review-lac-seven.vercel.app/)
+
 
 ---
 
