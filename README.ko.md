@@ -165,20 +165,46 @@ Next.js, TypeScript, Tailwind CSS, OpenAI API, Vercel, Google AdSense
 
 ---
 
-### ToS Change Tracker
-서비스 약관과 개인정보처리방침 변경 사항을 추적하는 웹 서비스 및 Chrome 확장 프로그램입니다.
+# ToS Change Tracker
 
-**주요 기능**
-- 자동 diff 감지
-- AI 기반 변경 요약 및 리스크 분석
-- Chrome 확장 프로그램 원클릭 워크플로우
+![ToS Change Tracker Screenshot](https://raw.githubusercontent.com/hyeonjo00/tos-change-tracker/main/public/readme/home.png)
 
-**기술**  
-Next.js, OpenAI API, Chrome Extension Manifest V3, Vercel
+ToS Change Tracker는 서비스 약관, 개인정보 처리방침, 정책 문서의 변경 사항을 빠르게 확인하기 위한 Next.js 기반 AI 프로토타입입니다. 사용자가 공개 정책 URL을 입력하면 서버에서 페이지를 가져오고, HTML을 읽기 쉬운 텍스트로 정리한 뒤, 줄 단위 diff를 생성합니다. OpenAI API 키가 설정되어 있으면 변경 내용을 요약하고 Low, Medium, High 기준의 위험도 분석도 제공합니다.
 
-**링크**
-- Demo: https://tos-change-tracker.vercel.app/
-- GitHub: https://github.com/hyeonjo00/tos-change-tracker
+## 주요 기능
+
+- 정책 URL 입력 및 서버 측 HTML fetch
+- script, style, 태그 제거를 통한 텍스트 정규화
+- `diff` 패키지 기반 줄 단위 변경 비교
+- OpenAI Responses API 기반 변경 요약 및 위험도 분석
+- 다크/라이트 테마 전환
+- 영어, 한국어, 일본어 README 및 기술백서 제공
+- 실제 화면 스크린샷 포함
+
+## 기술 스택
+
+- Next.js App Router
+- React
+- TypeScript
+- Tailwind CSS
+- OpenAI Responses API
+- diff
+
+## 기술백서
+
+- [한국어 기술백서](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-ko.md)
+- [English Whitepaper](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-en.md)
+- [日本語ホワイトペーパー](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-ja.md)
+
+## Links
+
+- Demo: [https://tos-change-tracker.vercel.app/](https://tos-change-tracker.vercel.app/)
+- GitHub: [https://github.com/hyeonjo00/tos-change-tracker](https://github.com/hyeonjo00/tos-change-tracker)
+
+## 프로젝트 포인트
+
+이 프로젝트는 약관 변경 모니터링 제품의 핵심 파이프라인을 작고 투명하게 구현한 프로토타입입니다. 현재는 URL fetch, 텍스트 정규화, diff 생성, AI 요약 흐름에 집중하며, 향후 데이터베이스 기반 스냅샷 저장과 예약 모니터링으로 확장할 수 있도록 설계했습니다.
+
 
 ---
 
