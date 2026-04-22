@@ -9,7 +9,7 @@
 <h1 align="center">Hyeonjo Kim</h1>
 
 <p align="center">
-  Software builder creating polished products across web, AI, developer tools, browser extensions, desktop apps, and systems programming.
+  Software Engineer building AI products, web platforms, developer tools, desktop apps, and systems-level projects.
 </p>
 
 <p align="center">
@@ -24,11 +24,11 @@
 
 ## About
 
-I build practical software products that turn ideas into usable, deployable systems.
+I build practical software products from idea to working system.
 
-My work spans frontend applications, AI-powered products, developer tools, browser extensions, desktop software, and low-level systems. I care about clean UX, reliable architecture, fast iteration, and shipping projects that feel complete enough to be used in the real world.
+My work spans AI SaaS products, full-stack web applications, backend pipelines, browser extensions, desktop software, and low-level systems. I care about polished UX, reliable architecture, clear product thinking, and shipping projects that feel complete enough to be used in the real world.
 
-Recently, I have been working with Next.js, TypeScript, OpenAI API, Claude, JavaFX, Chrome Extension, Prisma, PostgreSQL, C, and Java.
+Recently, I have been building with Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, OpenAI API, Claude, JavaFX, Chrome Extensions, C, and Java.
 
 ---
 
@@ -39,16 +39,18 @@ Recently, I have been working with Next.js, TypeScript, OpenAI API, Claude, Java
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### Backend & Database
+### Backend, Database & Queue
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" />
+  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
+  <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
 </p>
 
-### AI & Automation
+### AI & LLM
 <p>
   <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
+
 
 ### Desktop & Systems
 <p>
