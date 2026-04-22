@@ -9,7 +9,7 @@
 <h1 align="center">김현조</h1>
 
 <p align="center">
-  웹, AI, 개발자 도구, 브라우저 확장, 데스크톱 앱, 시스템 프로그래밍까지 제품으로 완성하는 소프트웨어 빌더입니다.
+  AI 제품, 웹 플랫폼, 개발자 도구, 데스크톱 앱, 시스템 프로젝트를 만드는 소프트웨어 엔지니어입니다.
 </p>
 
 <p align="center">
@@ -24,19 +24,11 @@
 
 ## 소개
 
-아이디어를 실제로 사용할 수 있는 제품과 시스템으로 만드는 개발자입니다.
+아이디어를 실제로 사용할 수 있는 제품과 시스템으로 만드는 것을 좋아합니다.
 
-프론트엔드 애플리케이션, AI 기반 제품, 개발자 도구, 브라우저 확장 프로그램, 데스크톱 소프트웨어, 로우레벨 시스템까지 다양한 영역을 다룹니다. 깔끔한 UX, 신뢰할 수 있는 구조, 빠른 반복 개발, 그리고 실제 사용자에게 보여줄 수 있는 완성도를 중요하게 생각합니다.
+AI SaaS 제품, 풀스택 웹 애플리케이션, 백엔드 파이프라인, 브라우저 확장 프로그램, 데스크톱 소프트웨어, 저수준 시스템 프로젝트를 만들고 있습니다. 완성도 있는 UX, 안정적인 아키텍처, 명확한 제품 사고, 그리고 실제 사용 가능한 수준까지 구현하는 것을 중요하게 생각합니다.
 
-최근에는 Next.js, TypeScript, OpenAI API, Claude, JavaFX, Chrome Extension, Prisma, PostgreSQL, C, Java를 활용해 여러 제품을 만들고 있습니다.
-
-## 소개
-
-아이디어를 실제로 사용할 수 있는 제품과 시스템으로 만드는 개발자입니다.
-
-프론트엔드 애플리케이션, AI 기반 제품, 개발자 도구, 브라우저 확장 프로그램, 데스크톱 소프트웨어, 로우레벨 시스템까지 다양한 영역을 다룹니다. 깔끔한 UX, 신뢰할 수 있는 구조, 빠른 반복 개발, 그리고 실제 사용자에게 보여줄 수 있는 완성도를 중요하게 생각합니다.
-
-최근에는 Next.js, TypeScript, OpenAI API, Claude, JavaFX, Chrome Extension, Prisma, PostgreSQL, C, Java를 활용해 여러 제품을 만들고 있습니다.
+최근에는 Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, OpenAI API, Claude, JavaFX, Chrome Extension, C, Java를 활용해 프로젝트를 만들고 있습니다.
 
 ---
 
@@ -47,16 +39,18 @@
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### 백엔드 & 데이터베이스
+### 백엔드, 데이터베이스 & 큐
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" />
+  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
+  <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
 </p>
 
-### AI & 자동화
+### AI & LLM
 <p>
   <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
+
 
 ### 데스크톱 & 시스템
 <p>
