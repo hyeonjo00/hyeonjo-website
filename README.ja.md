@@ -9,7 +9,7 @@
 <h1 align="center">Hyeonjo Kim</h1>
 
 <p align="center">
-  Web、AI、開発者ツール、ブラウザ拡張、デスクトップアプリ、システムプログラミングまで、実用的なソフトウェア製品を作っています。
+  AIプロダクト、Webプラットフォーム、開発者ツール、デスクトップアプリ、システム系プロジェクトを作るソフトウェアエンジニアです。
 </p>
 
 <p align="center">
@@ -24,19 +24,11 @@
 
 ## About
 
-アイデアを、実際に使えるプロダクトやシステムへ落とし込むことを大切にしています。
+アイデアを、実際に使えるプロダクトやシステムへ形にすることを大切にしています。
 
-フロントエンドアプリケーション、AIプロダクト、開発者向けツール、ブラウザ拡張、デスクトップソフトウェア、低レイヤーのシステム開発まで幅広く取り組んでいます。きれいなUX、信頼できるアーキテクチャ、素早い改善サイクル、そして実際に公開できる完成度を重視しています。
+AI SaaS、フルスタックWebアプリケーション、バックエンドパイプライン、ブラウザ拡張機能、デスクトップソフトウェア、低レイヤー寄りのシステムプロジェクトまで幅広く開発しています。洗練されたUX、信頼できるアーキテクチャ、明確なプロダクト思考、そして実際に使える完成度まで作り切ることを重視しています。
 
-最近は Next.js、TypeScript、OpenAI API、Claude、JavaFX、Chrome Extension、Prisma、PostgreSQL、C、Java を使ったプロジェクトに取り組んでいます。
-
-## About
-
-アイデアを、実際に使えるプロダクトやシステムへ落とし込むことを大切にしている開発者です。
-
-フロントエンドアプリケーション、AIプロダクト、開発者向けツール、ブラウザ拡張、デスクトップソフトウェア、低レイヤーのシステム開発まで幅広く取り組んでいます。きれいなUX、信頼できるアーキテクチャ、素早い改善サイクル、そして実際に公開できる完成度を重視しています。
-
-最近は Next.js、TypeScript、OpenAI API、Claude、JavaFX、Chrome Extension、Prisma、PostgreSQL、C、Java を使ったプロジェクトに取り組んでいます。
+最近は Next.js、TypeScript、Prisma、PostgreSQL、Redis、BullMQ、OpenAI API、Claude、JavaFX、Chrome Extension、C、Java を使ってプロジェクトを開発しています。
 
 ---
 
@@ -47,16 +39,18 @@
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### Backend & Database
+### Backend, Database & Queue
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" />
+  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
+  <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
 </p>
 
-### AI & Automation
+### AI & LLM
 <p>
   <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
+
 
 ### Desktop & Systems
 <p>
