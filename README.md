@@ -78,7 +78,6 @@ Recently, I have been working with Next.js, TypeScript, Prisma, PostgreSQL, Redi
 <p>
   <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
 </p>
----
 
 ## Projects
 
