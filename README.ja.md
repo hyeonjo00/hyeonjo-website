@@ -24,27 +24,28 @@
 
 ## About
 
-私は、プロダクト思考・システム設計・AIワークフローを組み合わせたエンドツーエンドのソフトウェアシステムを構築しています。
+プロダクト思考、システム設計、AI-driven workflows を組み合わせた end-to-end のソフトウェアシステムを開発しています。
 
-主なフォーカスは以下の通りです：
-- キューやパイプライン、非同期処理を活用したスケーラブルなバックエンド設計
-- 本番環境で動作するAIアプリケーションの開発
-- UXを重視した完成度の高いプロダクト開発
+主に注力している領域:
+- スケーラブルなバックエンドアーキテクチャ設計: queues, pipelines, async systems
+- 本番環境を意識した AI アプリケーション開発
+- TF-IDF、embeddings、hybrid ranking、caching、offline model execution を活用した信頼性の高い検索・retrieval システム設計
+- 優れた UX を備えた洗練されたユーザー向けプロダクト開発
 
-フロントエンドからバックエンドインフラまで幅広く扱い、信頼性・可観測性・スケーラビリティを重視したシステム設計を行っています。
+フロントエンドインターフェースからバックエンドインフラまで full stack 全体で開発し、信頼性、observability、スケーラビリティを重視しています。
 
-最近では、Next.js、TypeScript、Prisma、PostgreSQL、Redis、BullMQ、およびLLM API（OpenAI、Claude）を用いて、実用的なAIプロダクトの開発に取り組んでいます。
+最近は Next.js、TypeScript、Prisma、PostgreSQL、Redis、BullMQ、LLM APIs (OpenAI, Claude)、Python retrieval systems を使って、実用的な AI プロダクトと検索インフラを構築しています。
 
 ---
 
-## Tech Stack
+## 技術スタック
 
-### Frontend
+### フロントエンド
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### Backend, Database & Queue
+### バックエンド、データベース & キュー
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
   <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
@@ -56,28 +57,40 @@
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
 
-### Game Development
+### 検索 & Retrieval
+<p>
+  <img src="https://skillicons.dev/icons?i=python" />
+  <img src="https://img.shields.io/badge/TF--IDF-111827?style=for-the-badge&logo=python&logoColor=white" alt="TF-IDF" />
+  <img src="https://img.shields.io/badge/Semantic_Search-2563EB?style=for-the-badge&logo=python&logoColor=white" alt="Semantic Search" />
+  <img src="https://img.shields.io/badge/Hybrid_Search-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Hybrid Search" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111827" alt="Hugging Face" />
+</p>
+
+### ゲーム開発
 <p>
   <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
 </p>
 
-### Desktop & Systems
+### デスクトップ & システム
 <p>
   <img src="https://skillicons.dev/icons?i=java,c" />
   <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
   <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
 </p>
 
-### Browser & Extensions
+### ブラウザ & 拡張機能
 <p>
   <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
   <img src="https://img.shields.io/badge/Manifest_V3-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
 </p>
 
-### Deployment & Tools
+### デプロイ & ツール
 <p>
   <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
 </p>
+
 
 ---
 
