@@ -366,6 +366,42 @@ Python, Ursina Engine
 
 **リンク**
 - GitHub: https://github.com/hyeonjo00/pysnake
+- ---
+
+### Python Hybrid Search Engine
+TF-IDF キーワード検索、埋め込みベースのセマンティック検索、ハイブリッドランキングを組み合わせた Python 製の本番志向検索エンジンです。
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/hybrid-search-engine">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/hybrid-search-engine/main/docs/screenshots/hybrid-search-ui.png" alt="Hybrid Search UI スクリーンショット" width="100%" />
+  </a>
+</p>
+
+**主な機能**
+- Unicode-aware 前処理を使った TF-IDF キーワード検索
+- `sentence-transformers` によるセマンティック検索
+- weighted score fusion と Reciprocal Rank Fusion によるハイブリッドランキング
+- 重複ドキュメントの元インデックスとドキュメント ID の保持
+- subprocess ベースのモデル読み込みによる parent process hang リスクの低減
+- strict `local_files_only` によるオフライン/local model 対応
+- checksum 検証と atomic write を備えた content-addressed embedding cache
+- 大規模 corpus encoding と tokenizer length check のための file-based IPC
+- corpus 入力、embedding、score、`top_k` に対する厳格な検証
+- Unicode、技術用語 token、cache 安全性、オフライン動作、IPC timeout リスクの回帰テスト
+
+**技術スタック**  
+Python, scikit-learn, NumPy, sentence-transformers, Hugging Face, pytest
+
+**アーキテクチャ**
+- `preprocess.py`: Unicode-aware tokenization と configurable stopword removal を処理
+- `keyword_search.py`: TF-IDF keyword search と top-k 最適化を実装
+- `semantic_search.py`: subprocess-isolated embedding search、cache safety、offline model behavior を管理
+- `hybrid_search.py`: keyword score と semantic score を configurable fusion 方式で統合
+- `_model_loader.py`: `SentenceTransformer` のモデル読み込みと encoding を parent process から分離
+
+**リンク**
+- GitHub: https://github.com/hyeonjo00/hybrid-search-engine
+
 
 ## GitHub Stats
 
