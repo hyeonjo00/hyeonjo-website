@@ -24,11 +24,16 @@
 
 ## About
 
-I build practical software products from idea to working system.
+I build end-to-end software systems that combine product thinking, system design, and AI-driven workflows.
 
-My work spans AI SaaS products, full-stack web applications, backend pipelines, browser extensions, desktop software, and low-level systems. I care about polished UX, reliable architecture, clear product thinking, and shipping projects that feel complete enough to be used in the real world.
+My focus is on:
+- Designing scalable backend architectures (queues, pipelines, async systems)
+- Building production-ready AI-powered applications
+- Creating polished user-facing products with strong UX
 
-Recently, I have been building with Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, OpenAI API, Claude, JavaFX, Chrome Extensions, C, and Java.
+I work across the full stack, from frontend interfaces to backend infrastructure, and I prioritize systems that are reliable, observable, and designed to scale.
+
+Recently, I have been working with Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, and LLM APIs (OpenAI, Claude) to build real-world AI products.
 
 ---
 
@@ -51,6 +56,10 @@ Recently, I have been building with Next.js, TypeScript, Prisma, PostgreSQL, Red
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
 
+### Game Development
+<p>
+  <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
+</p>
 
 ### Desktop & Systems
 <p>
@@ -69,7 +78,6 @@ Recently, I have been building with Next.js, TypeScript, Prisma, PostgreSQL, Red
 <p>
   <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
 </p>
-
 ---
 
 ## Projects
