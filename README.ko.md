@@ -22,24 +22,29 @@
 
 ---
 
-## 소개
+## About
 
-아이디어를 실제로 사용할 수 있는 제품과 시스템으로 만드는 것을 좋아합니다.
+저는 제품 관점, 시스템 설계, 그리고 AI 기반 워크플로우를 결합한 end-to-end 소프트웨어 시스템을 구축합니다.
 
-AI SaaS 제품, 풀스택 웹 애플리케이션, 백엔드 파이프라인, 브라우저 확장 프로그램, 데스크톱 소프트웨어, 저수준 시스템 프로젝트를 만들고 있습니다. 완성도 있는 UX, 안정적인 아키텍처, 명확한 제품 사고, 그리고 실제 사용 가능한 수준까지 구현하는 것을 중요하게 생각합니다.
+주요 관심 분야는 다음과 같습니다:
+- 큐, 파이프라인, 비동기 시스템을 활용한 확장 가능한 백엔드 아키텍처 설계
+- 실제 서비스 수준의 AI 기반 애플리케이션 개발
+- 사용자 경험을 고려한 완성도 높은 제품 구축
 
-최근에는 Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, OpenAI API, Claude, JavaFX, Chrome Extension, C, Java를 활용해 프로젝트를 만들고 있습니다.
+프론트엔드부터 백엔드 인프라까지 전반을 아우르며, 신뢰성, 관측 가능성, 확장성을 고려한 시스템 설계를 중요하게 생각합니다.
+
+최근에는 Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, 그리고 LLM API(OpenAI, Claude)를 활용하여 실제 서비스형 AI 제품을 개발하고 있습니다.
 
 ---
 
-## 기술 스택
+## Tech Stack
 
-### 프론트엔드
+### Frontend
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### 백엔드, 데이터베이스 & 큐
+### Backend, Database & Queue
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
   <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
@@ -51,26 +56,28 @@ AI SaaS 제품, 풀스택 웹 애플리케이션, 백엔드 파이프라인, 브
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
 
+### Game Development
+<p>
+  <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
+</p>
 
-### 데스크톱 & 시스템
+### Desktop & Systems
 <p>
   <img src="https://skillicons.dev/icons?i=java,c" />
   <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
   <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
 </p>
 
-### 브라우저 & 확장 프로그램
+### Browser & Extensions
 <p>
   <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
   <img src="https://img.shields.io/badge/Manifest_V3-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
 </p>
 
-### 배포 & 도구
+### Deployment & Tools
 <p>
   <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
 </p>
-
----
 
 ## 프로젝트
 
