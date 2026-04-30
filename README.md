@@ -362,6 +362,41 @@ Python, Ursina Engine
 
 **Links**
 - GitHub: https://github.com/hyeonjo00/pysnake
+---
+
+### Python Hybrid Search Engine
+A production-focused hybrid search engine built with Python, combining TF-IDF keyword search, embedding-based semantic search, and configurable hybrid ranking.
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/search_engine">
+    <img src="docs/screenshots/hybrid-search-ui.png" alt="Hybrid Search UI screenshot" width="100%" />
+  </a>
+</p>
+
+**Highlights**
+- TF-IDF keyword retrieval with Unicode-aware preprocessing
+- Embedding-based semantic search using `sentence-transformers`
+- Hybrid ranking with weighted score fusion and Reciprocal Rank Fusion
+- Preserves duplicate document identity with original indexes
+- Production-safe semantic model isolation through subprocess-based loading
+- Offline/local model support with strict `local_files_only` behavior
+- Content-addressed embedding cache with checksum validation and atomic writes
+- File-based IPC for large corpus encoding and tokenizer length checks
+- Robust validation for corpus input, embeddings, scores, and `top_k`
+- Regression tests for Unicode, technical tokens, cache safety, offline behavior, and IPC timeout risks
+
+**Tech**  
+Python, scikit-learn, NumPy, sentence-transformers, Hugging Face, pytest
+
+**Architecture**
+- `preprocess.py` handles Unicode-aware tokenization and configurable stopword removal
+- `keyword_search.py` implements TF-IDF keyword search with top-k optimization
+- `semantic_search.py` manages subprocess-isolated embedding search, cache safety, and offline model behavior
+- `hybrid_search.py` combines keyword and semantic scores through configurable fusion methods
+- `_model_loader.py` isolates `SentenceTransformer` model loading and encoding from the parent process
+
+**Links**
+- GitHub: https://github.com/hyeonjo00/search_engine
 
 ## GitHub Stats
 
