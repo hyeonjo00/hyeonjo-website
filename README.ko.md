@@ -330,6 +330,34 @@ Blackjack Engine 아키텍처, EV 전략 로직, Split 재귀 처리, UI 상태 
 
 ---
 
+### PySnake
+
+Python과 Ursina 엔진으로 개발된 2D 스네이크 서바이벌 게임으로, AI 적과 동적인 게임 루프를 특징으로 합니다.
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/pysnake">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/pysnake/main/docs/screenshots/gameplay.png" alt="PySnake 게임플레이 미리보기" width="100%" />
+  </a>
+</p>
+
+**핵심 기능**
+- 부드러운 뱀 이동 및 몸체 추적 시스템
+- 쥐 형태의 먹이 시스템
+- 플레이어를 추적하는 사냥꾼 AI
+- 점수 및 콤보 기반 생존 구조
+- 깔끔한 2D 탑다운 게임 플레이
+- 가독성을 개선한 UI 리디자인
+
+**기술 스택**
+Python, Ursina Engine
+
+**문서**
+- [기술 백서 (EN)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_en.md)
+- [기술 백서 (KO)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_ko.md)
+
+**링크**
+- GitHub: https://github.com/hyeonjo00/pysnake
+
 ## GitHub 통계
 
 <p align="center">
