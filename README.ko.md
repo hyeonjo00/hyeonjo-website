@@ -22,29 +22,30 @@
 
 ---
 
-## About
+## 소개
 
-저는 제품 관점, 시스템 설계, 그리고 AI 기반 워크플로우를 결합한 end-to-end 소프트웨어 시스템을 구축합니다.
+제품 사고, 시스템 설계, AI 기반 워크플로우를 결합한 end-to-end 소프트웨어 시스템을 만듭니다.
 
-주요 관심 분야는 다음과 같습니다:
-- 큐, 파이프라인, 비동기 시스템을 활용한 확장 가능한 백엔드 아키텍처 설계
-- 실제 서비스 수준의 AI 기반 애플리케이션 개발
-- 사용자 경험을 고려한 완성도 높은 제품 구축
+제가 집중하는 영역은 다음과 같습니다:
+- 확장 가능한 백엔드 아키텍처 설계: queues, pipelines, async systems
+- 프로덕션 수준의 AI 애플리케이션 구축
+- TF-IDF, embeddings, hybrid ranking, caching, offline model execution을 활용한 신뢰성 있는 검색·retrieval 시스템 설계
+- 완성도 높은 UX를 갖춘 사용자 중심 제품 개발
 
-프론트엔드부터 백엔드 인프라까지 전반을 아우르며, 신뢰성, 관측 가능성, 확장성을 고려한 시스템 설계를 중요하게 생각합니다.
+프론트엔드 인터페이스부터 백엔드 인프라까지 full stack 전반에서 작업하며, 신뢰성 있고 관측 가능하며 확장 가능한 시스템을 우선합니다.
 
-최근에는 Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, 그리고 LLM API(OpenAI, Claude)를 활용하여 실제 서비스형 AI 제품을 개발하고 있습니다.
+최근에는 Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, LLM APIs (OpenAI, Claude), Python retrieval systems를 활용해 실제 사용 가능한 AI 제품과 검색 인프라를 만들고 있습니다.
 
 ---
 
-## Tech Stack
+## 기술 스택
 
-### Frontend
+### 프론트엔드
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### Backend, Database & Queue
+### 백엔드, 데이터베이스 & 큐
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
   <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
@@ -56,28 +57,11 @@
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
 
-### Game Development
+### 검색 & Retrieval
 <p>
-  <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
-</p>
+  <img src="https://skillicons.dev/icons?i=python" />
+  <img src="https://img.shields.io/badge/TF--IDF-111827?style=for-the-badge
 
-### Desktop & Systems
-<p>
-  <img src="https://skillicons.dev/icons?i=java,c" />
-  <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
-  <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
-</p>
-
-### Browser & Extensions
-<p>
-  <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
-  <img src="https://img.shields.io/badge/Manifest_V3-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
-</p>
-
-### Deployment & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
-</p>
 
 ## 프로젝트
 
