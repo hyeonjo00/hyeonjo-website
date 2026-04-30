@@ -368,8 +368,8 @@ Python, Ursina Engine
 A production-focused hybrid search engine built with Python, combining TF-IDF keyword search, embedding-based semantic search, and configurable hybrid ranking.
 
 <p align="center">
-  <a href="https://github.com/hyeonjo00/search_engine">
-    <img src="docs/screenshots/hybrid-search-ui.png" alt="Hybrid Search UI screenshot" width="100%" />
+  <a href="https://github.com/hyeonjo00/hybrid-search-engine">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/hybrid-search-engine/main/docs/screenshots/hybrid-search-ui.png" alt="Hybrid Search UI screenshot" width="100%" />
   </a>
 </p>
 
@@ -396,7 +396,9 @@ Python, scikit-learn, NumPy, sentence-transformers, Hugging Face, pytest
 - `_model_loader.py` isolates `SentenceTransformer` model loading and encoding from the parent process
 
 **Links**
-- GitHub: https://github.com/hyeonjo00/search_engine
+- GitHub: https://github.com/hyeonjo00/hybrid-search-engine
+
+
 
 ## GitHub Stats
 
