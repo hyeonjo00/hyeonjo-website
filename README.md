@@ -29,11 +29,12 @@ I build end-to-end software systems that combine product thinking, system design
 My focus is on:
 - Designing scalable backend architectures (queues, pipelines, async systems)
 - Building production-ready AI-powered applications
+- Designing reliable search and retrieval systems with TF-IDF, embeddings, hybrid ranking, caching, and offline model execution
 - Creating polished user-facing products with strong UX
 
 I work across the full stack, from frontend interfaces to backend infrastructure, and I prioritize systems that are reliable, observable, and designed to scale.
 
-Recently, I have been working with Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, and LLM APIs (OpenAI, Claude) to build real-world AI products.
+Recently, I have been working with Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, LLM APIs (OpenAI, Claude), and Python retrieval systems to build real-world AI products and search infrastructure.
 
 ---
 
@@ -54,6 +55,17 @@ Recently, I have been working with Next.js, TypeScript, Prisma, PostgreSQL, Redi
 <p>
   <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+</p>
+
+### Search & Retrieval
+<p>
+  <img src="https://skillicons.dev/icons?i=python" />
+  <img src="https://img.shields.io/badge/TF--IDF-111827?style=for-the-badge&logo=python&logoColor=white" alt="TF-IDF" />
+  <img src="https://img.shields.io/badge/Semantic_Search-2563EB?style=for-the-badge&logo=python&logoColor=white" alt="Semantic Search" />
+  <img src="https://img.shields.io/badge/Hybrid_Search-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Hybrid Search" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111827" alt="Hugging Face" />
 </p>
 
 ### Game Development
