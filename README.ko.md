@@ -60,7 +60,36 @@
 ### 검색 & Retrieval
 <p>
   <img src="https://skillicons.dev/icons?i=python" />
-  <img src="https://img.shields.io/badge/TF--IDF-111827?style=for-the-badge
+  <img src="https://img.shields.io/badge/TF--IDF-111827?style=for-the-badge&logo=python&logoColor=white" alt="TF-IDF" />
+  <img src="https://img.shields.io/badge/Semantic_Search-2563EB?style=for-the-badge&logo=python&logoColor=white" alt="Semantic Search" />
+  <img src="https://img.shields.io/badge/Hybrid_Search-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Hybrid Search" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111827" alt="Hugging Face" />
+</p>
+
+### 게임 개발
+<p>
+  <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
+</p>
+
+### 데스크톱 & 시스템
+<p>
+  <img src="https://skillicons.dev/icons?i=java,c" />
+  <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
+  <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
+</p>
+
+### 브라우저 & 확장 프로그램
+<p>
+  <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
+  <img src="https://img.shields.io/badge/Manifest_V3-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
+</p>
+
+### 배포 & 도구
+<p>
+  <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
+</p>
 
 
 ## 프로젝트
