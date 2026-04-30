@@ -330,6 +330,34 @@ Pure Cで構築した軽量データベース管理スタジオです。
 
 ---
 
+### PySnake
+
+PythonとUrsinaエンジンで開発された2Dスネークサバイバルゲームで、AI敵とダイナミックなゲームプレイを特徴としています。
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/pysnake">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/pysnake/main/docs/screenshots/gameplay.png" alt="PySnake ゲームプレイプレビュー" width="100%" />
+  </a>
+</p>
+
+**主な特徴**
+- スムーズなスネーク移動とボディ追従システム
+- マウス型の餌システム
+- プレイヤーを追跡するハンターAI
+- スコアおよびコンボベースのサバイバル構造
+- クリーンな2Dトップダウンゲームプレイ
+- 読みやすさを向上させたUIリデザイン
+
+**技術スタック**
+Python, Ursina Engine
+
+**ドキュメント**
+- [技術ホワイトペーパー (EN)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_en.md)
+- [技術ホワイトペーパー (KO)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_ko.md)
+
+**リンク**
+- GitHub: https://github.com/hyeonjo00/pysnake
+
 ## GitHub Stats
 
 <p align="center">
