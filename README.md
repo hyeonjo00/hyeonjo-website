@@ -336,6 +336,34 @@ This project combines a reusable storage engine, B+ Tree indexing, WAL-style rec
 
 ---
 
+### PySnake
+
+A 2D snake survival game built with Python and Ursina, featuring AI-driven enemies and a dynamic gameplay loop.
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/pysnake">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/pysnake/main/docs/screenshots/gameplay.png" alt="PySnake gameplay preview" width="100%" />
+  </a>
+</p>
+
+**Highlights**
+- Smooth snake movement with body-following system
+- Mouse-based food system (prey)
+- Hunter enemies with chasing AI
+- Score, combo, and survival mechanics
+- Clean 2D top-down gameplay structure
+- Modern UI redesign with improved readability
+
+**Tech**
+Python, Ursina Engine
+
+**Documentation**
+- [Technical Whitepaper (EN)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_en.md)
+- [Technical Whitepaper (KO)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_ko.md)
+
+**Links**
+- GitHub: https://github.com/hyeonjo00/pysnake
+
 ## GitHub Stats
 
 <p align="center">
