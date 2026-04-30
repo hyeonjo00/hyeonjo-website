@@ -24,11 +24,16 @@
 
 ## About
 
-アイデアを、実際に使えるプロダクトやシステムへ形にすることを大切にしています。
+私は、プロダクト思考・システム設計・AIワークフローを組み合わせたエンドツーエンドのソフトウェアシステムを構築しています。
 
-AI SaaS、フルスタックWebアプリケーション、バックエンドパイプライン、ブラウザ拡張機能、デスクトップソフトウェア、低レイヤー寄りのシステムプロジェクトまで幅広く開発しています。洗練されたUX、信頼できるアーキテクチャ、明確なプロダクト思考、そして実際に使える完成度まで作り切ることを重視しています。
+主なフォーカスは以下の通りです：
+- キューやパイプライン、非同期処理を活用したスケーラブルなバックエンド設計
+- 本番環境で動作するAIアプリケーションの開発
+- UXを重視した完成度の高いプロダクト開発
 
-最近は Next.js、TypeScript、Prisma、PostgreSQL、Redis、BullMQ、OpenAI API、Claude、JavaFX、Chrome Extension、C、Java を使ってプロジェクトを開発しています。
+フロントエンドからバックエンドインフラまで幅広く扱い、信頼性・可観測性・スケーラビリティを重視したシステム設計を行っています。
+
+最近では、Next.js、TypeScript、Prisma、PostgreSQL、Redis、BullMQ、およびLLM API（OpenAI、Claude）を用いて、実用的なAIプロダクトの開発に取り組んでいます。
 
 ---
 
@@ -51,6 +56,10 @@ AI SaaS、フルスタックWebアプリケーション、バックエンドパ�
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
 
+### Game Development
+<p>
+  <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
+</p>
 
 ### Desktop & Systems
 <p>
