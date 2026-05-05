@@ -6,10 +6,10 @@
   <a href="./README.ja.md">日本語</a>
 </p>
 
-<h1 align="center">김현조</h1>
+<h1 align="center">Hyeonjo Kim</h1>
 
 <p align="center">
-  AI 제품, 웹 플랫폼, 개발자 도구, 데스크톱 앱, 시스템 프로젝트를 만드는 소프트웨어 엔지니어입니다.
+  AI 제품, 웹 플랫폼, 개발자 도구, 데스크톱 앱, 시스템 수준 프로젝트를 만드는 소프트웨어 엔지니어입니다.
 </p>
 
 <p align="center">
@@ -24,40 +24,57 @@
 
 ## 소개
 
-제품 사고, 시스템 설계, AI 기반 워크플로우를 결합한 end-to-end 소프트웨어 시스템을 만듭니다.
+저는 제품 사고, 시스템 설계, AI 기반 워크플로우를 결합한 end-to-end 소프트웨어 시스템을 만듭니다.
 
-제가 집중하는 영역은 다음과 같습니다:
-- 확장 가능한 백엔드 아키텍처 설계: queues, pipelines, async systems
-- 프로덕션 수준의 AI 애플리케이션 구축
-- TF-IDF, embeddings, hybrid ranking, caching, offline model execution을 활용한 신뢰성 있는 검색·retrieval 시스템 설계
-- 완성도 높은 UX를 갖춘 사용자 중심 제품 개발
+주요 관심사는 다음과 같습니다.
 
-프론트엔드 인터페이스부터 백엔드 인프라까지 full stack 전반에서 작업하며, 신뢰성 있고 관측 가능하며 확장 가능한 시스템을 우선합니다.
+- 큐, 파이프라인, 비동기 시스템 기반의 확장 가능한 백엔드 아키텍처 설계
+- 실제 서비스 수준의 AI 기반 애플리케이션 개발
+- TF-IDF, 임베딩, 하이브리드 랭킹, 캐싱, 오프라인 모델 실행을 활용한 검색 및 검색 인프라 설계
+- 사용자 경험이 좋은 완성도 높은 제품 UI 개발
+- llama.cpp, GGUF, Docker, Oracle Cloud Infrastructure 기반의 셀프호스팅 로컬 LLM 인프라 구축
 
-최근에는 Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, LLM APIs (OpenAI, Claude), Python retrieval systems를 활용해 실제 사용 가능한 AI 제품과 검색 인프라를 만들고 있습니다.
+프론트엔드 인터페이스부터 백엔드 인프라까지 풀스택으로 작업하며, 신뢰성 있고 관측 가능하며 확장 가능한 시스템을 중요하게 생각합니다.
+
+최근에는 Next.js, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, OpenAI, Claude, Python 검색 시스템, llama.cpp, Docker, Oracle Cloud Infrastructure를 활용해 실제 AI 제품과 검색 인프라를 만들고 있습니다.
 
 ---
 
 ## 기술 스택
 
-### 프론트엔드
+### Frontend
+
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### 백엔드, 데이터베이스 & 큐
+### Backend, Database & Queue
+
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
   <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
 </p>
 
+### Systems & Runtime
+
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,cmake,docker,linux" />
+  <img src="https://img.shields.io/badge/SSE_Streaming-2563EB?style=for-the-badge&logo=serverless&logoColor=white" alt="SSE Streaming" />
+  <img src="https://img.shields.io/badge/RAII-111827?style=for-the-badge&logo=cplusplus&logoColor=white" alt="RAII" />
+</p>
+
 ### AI & LLM
+
 <p>
   <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/llama.cpp-111827?style=for-the-badge&logo=cplusplus&logoColor=white" alt="llama.cpp" />
+  <img src="https://img.shields.io/badge/GGUF_Model-374151?style=for-the-badge&logo=ollama&logoColor=white" alt="GGUF Model" />
+  <img src="https://img.shields.io/badge/Local_LLM-0F766E?style=for-the-badge&logo=linux&logoColor=white" alt="Local LLM" />
 </p>
 
-### 검색 & Retrieval
+### Search & Retrieval
+
 <p>
   <img src="https://skillicons.dev/icons?i=python" />
   <img src="https://img.shields.io/badge/TF--IDF-111827?style=for-the-badge&logo=python&logoColor=white" alt="TF-IDF" />
@@ -68,255 +85,271 @@
   <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111827" alt="Hugging Face" />
 </p>
 
-### 게임 개발
+### Game Development
+
 <p>
   <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
 </p>
 
-### 데스크톱 & 시스템
+### Desktop & Systems
+
 <p>
   <img src="https://skillicons.dev/icons?i=java,c" />
   <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
   <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
 </p>
 
-### 브라우저 & 확장 프로그램
+### Browser & Extensions
+
 <p>
   <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
   <img src="https://img.shields.io/badge/Manifest_V3-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
 </p>
 
-### 배포 & 도구
+### Deployment & Tools
+
 <p>
-  <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
+  <img src="https://skillicons.dev/icons?i=vercel,docker,linux,git,github,vscode,npm" />
+  <img src="https://img.shields.io/badge/Oracle_Cloud-FF0000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud" />
+  <img src="https://img.shields.io/badge/OCI_VM-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI VM" />
 </p>
 
+---
 
 ## 프로젝트
 
 ### Chat Paper AI
-카카오톡, 인스타그램 DM, LINE, AI 대화 로그를 학술 논문 형식의 리서치 문서로 변환하는 한국어 중심 AI SaaS 플랫폼입니다.
+
+카카오톡, Instagram DM, LINE, AI 대화 로그를 학술 논문 스타일의 문서로 변환하는 한국어 중심 AI SaaS 플랫폼입니다.
 
 <p align="center">
   <a href="https://chat-paper-platform-iota.vercel.app/">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/chat-paper-platform/main/docs/screenshots/home-dark.png" alt="Chat Paper AI 데스크톱 미리보기" width="100%" />
+    <img src="https://raw.githubusercontent.com/hyeonjo00/chat-paper-platform/main/docs/screenshots/home-dark.png" alt="Chat Paper AI desktop preview" width="100%" />
   </a>
 </p>
 
 **주요 기능**
-- KakaoTalk `.zip` / `.txt`, Instagram DM, LINE, AI 대화 로그 업로드 지원
-- 대화 데이터를 파싱, 익명화한 뒤 AI 논문 생성 파이프라인으로 처리
-- 제목, 초록, 서론, 연구 방법, 결과, 논의, 결론으로 구성된 학술형 문서 생성
-- 한국어 / 영어 / 일본어 UI 및 논문 생성 흐름 지원
-- 로그인 없이 사용할 수 있는 게스트 기반 워크플로우
-- 생성 결과를 확인할 수 있는 리서치 대시보드와 진행 상태 UI
-- 저널 스타일의 논문 리더와 export 중심 UX
-- 원본 업로드 파일을 영구 저장하지 않는 개인정보 보호 중심 설계
 
-**백엔드 설계**
-- Next.js API Routes, Redis, BullMQ, Prisma, PostgreSQL, 독립 Node.js Worker 기반 비동기 생성 파이프라인 구축
-- 업로드/분석 API에서 DB 접근 전 Redis preflight rate limit을 먼저 실행해 게스트 기반 DB DoS 위험 완화
-- 긴 AI 논문 생성 작업은 API에서 직접 실행하지 않고 BullMQ 큐와 Worker를 통해 처리
-- PostgreSQL `idempotencyKey`와 BullMQ `jobId`에 동일한 SHA-256 키를 사용해 중복 생성 방지
-- Prisma Serializable transaction으로 작업 quota, Paper 생성, Job 생성을 원자적으로 처리
-- Worker에 hard timeout, OpenAI 요청 timeout, exponential backoff + jitter retry, graceful shutdown 적용
-- Redis 상태를 확인한 뒤 stuck job을 복구하여 중복 실행 위험을 줄임
-- ZIP 업로드는 Content-Length 검증, entry 수 제한, 파일별 크기 제한, 총 압축 해제 크기 제한으로 방어
+- KakaoTalk `.zip` / `.txt`, Instagram DM, LINE, AI 대화 로그 업로드 지원
+- 대화 메시지를 파싱, 익명화, 저장한 뒤 AI 논문 생성
+- 제목, 초록, 서론, 방법론, 결과, 논의, 결론을 포함한 전체 논문 생성
+- 한국어 / 영어 / 일본어 UI 및 논문 생성 흐름 지원
+- 로그인 없이 사용할 수 있는 guest-first 워크플로우
+- 생성된 논문 인사이트와 진행 상태를 보여주는 연구 대시보드
+- 논문 export 중심의 journal-style reader UX
+- 원본 업로드 파일을 영구 저장하지 않는 privacy-conscious 설계
+
+**백엔드 엔지니어링**
+
+- Next.js API Routes, Redis, BullMQ, Prisma, PostgreSQL, 독립 Node.js worker 기반 비동기 생성 파이프라인 구축
+- Upload 및 analyze route에서 DB 접근 전 Redis preflight rate limiting 적용
+- 긴 논문 생성 작업을 API 요청에서 직접 처리하지 않고 BullMQ 큐로 분리
+- PostgreSQL과 BullMQ `jobId`가 공유하는 deterministic SHA-256 idempotency key 사용
+- Prisma Serializable transaction으로 quota check와 중복 논문 생성 보호
+- Worker에 hard job timeout, OpenAI request timeout, exponential backoff + jitter retry, graceful shutdown 처리 적용
+- Redis job state 확인 기반 stuck job recovery로 중복 실행 방지
+- ZIP 업로드 검증에 content-length, entry count, per-entry cap, total uncompressed size limit 적용
 
 **기술 스택**  
 Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, Redis, BullMQ, OpenAI API, Node.js Worker, Vercel, Fly.io
 
 **문서**
-- [기술 백서 (EN)](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-en.md)
-- [기술 백서 (KO)](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-ko.md)
+
+- [Technical Whitepaper EN](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-en.md)
+- [Technical Whitepaper KO](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-ko.md)
 
 **링크**
+
 - Demo: https://chat-paper-platform-iota.vercel.app/
 - GitHub: https://github.com/hyeonjo00/chat-paper-platform
 
 ---
 
 ### Chart Insight Assistant
-AI 기반 주식 및 암호화폐 차트 스크린샷 분석 SaaS.
 
-Chart Insight Assistant는 사용자가 시장 차트 스크린샷을 업로드하고, OpenAI 기반의 보수적인 시나리오형 분석을 실행한 뒤, 구조화된 트레이딩 인사이트를 다크 테마 UI에서 확인할 수 있는 Next.js 애플리케이션입니다.
+주식 및 암호화폐 차트 스크린샷을 분석하는 AI 기반 차트 분석 SaaS입니다.
 
 <p align="center">
   <a href="https://chart-insight-assistant.vercel.app">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/home.png" alt="Chart Insight Assistant 홈 화면" width="100%" />
+    <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/home.png" alt="Chart Insight Assistant home preview" width="100%" />
   </a>
 </p>
 
 **주요 기능**
+
 - 드래그 앤 드롭 차트 스크린샷 업로드
-- PNG, JPG, JPEG, WEBP 이미지 미리보기 및 파일 검증
-- 서버 사이드 OpenAI 차트 분석 API 라우트
-- 구조화된 분석 결과: Bias, Confidence, Entry Zone, Invalidation Zone, Take Profit Targets, Summary
-- 미래 가격을 보장하지 않는 보수적인 시나리오형 시장 해석
-- `localStorage` 기반 로컬 분석 히스토리 저장
-- 깔끔한 다크 테마 반응형 UI
-- Google AdSense 준비형 수익화 구조
-- `ads.txt` 사이트 인증 지원
-- 영어 / 한국어 / 일본어 README 및 기술 백서 문서화
+- PNG, JPG, JPEG, WEBP 이미지 미리보기 및 검증
+- 서버 측 OpenAI 차트 분석 API route
+- bias, confidence, entry zone, invalidation zone, take-profit targets, summary 구조화 출력
+- 확정적 예측이 아닌 신중한 시나리오 기반 시장 해석
+- `localStorage` 기반 로컬 분석 기록 저장
+- 반응형 dark-themed UI
+- Google AdSense-ready 수익화 구조
+- English / Korean / Japanese README 및 technical whitepaper 문서화
 
 #### 제품 화면
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analyze.png" alt="Chart Insight Assistant 업로드 화면" width="49%" />
-  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analysis-result.png" alt="Chart Insight Assistant 분석 완료 화면" width="49%" />
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analyze.png" alt="Chart Insight Assistant upload screen" width="49%" />
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analysis-result.png" alt="Chart Insight Assistant analysis result" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/history.png" alt="Chart Insight Assistant 히스토리 화면" width="100%" />
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/history.png" alt="Chart Insight Assistant history screen" width="100%" />
 </p>
 
 **기술 스택**  
 Next.js, TypeScript, Tailwind CSS, OpenAI API, Vercel, Google AdSense
 
-**아키텍처**
-- `app/api/analyze/route.ts`: 서버 사이드 OpenAI 이미지 분석 요청 처리
-- `components/chart-upload-panel.tsx`: 업로드, 미리보기, API 전송, 결과 렌더링, 로컬 히스토리 저장 흐름 관리
-- `lib/analysis-history.ts`: 완료된 분석 결과를 브라우저 `localStorage`에 저장
-- `components/ad-banner.tsx`: 재사용 가능한 AdSense 준비형 광고 슬롯 제공
-- `docs/`: 다국어 기술 백서 문서 포함
-
-**기술 백서**
-- English: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/docs/technical-whitepaper-en.md
-- Korean: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/docs/technical-whitepaper-ko.md
-- Japanese: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/docs/technical-whitepaper-ja.md
-
 **링크**
+
 - Demo: https://chart-insight-assistant.vercel.app
 - GitHub: https://github.com/hyeonjo00/chart-insight-assistant
-- README: https://github.com/hyeonjo00/chart-insight-assistant
-
-
 
 ---
 
-# ToS Change Tracker
+### ToS Change Tracker
 
 ![ToS Change Tracker Screenshot](https://raw.githubusercontent.com/hyeonjo00/tos-change-tracker/main/public/readme/home.png)
 
-ToS Change Tracker는 서비스 약관, 개인정보 처리방침, 정책 문서의 변경 사항을 빠르게 확인하기 위한 Next.js 기반 AI 프로토타입입니다. 사용자가 공개 정책 URL을 입력하면 서버에서 페이지를 가져오고, HTML을 읽기 쉬운 텍스트로 정리한 뒤, 줄 단위 diff를 생성합니다. OpenAI API 키가 설정되어 있으면 변경 내용을 요약하고 Low, Medium, High 기준의 위험도 분석도 제공합니다.
+약관, 개인정보처리방침, 사용자 대상 정책 문서의 변경 사항을 검토하는 AI-assisted Next.js 프로토타입입니다.
 
-## 주요 기능
+**주요 기능**
 
 - 정책 URL 입력 및 서버 측 HTML fetch
-- script, style, 태그 제거를 통한 텍스트 정규화
-- `diff` 패키지 기반 줄 단위 변경 비교
+- script, style, HTML tag 제거 기반 텍스트 정규화
+- `diff` 패키지 기반 line-level document diff
 - OpenAI Responses API 기반 변경 요약 및 위험도 분석
-- 다크/라이트 테마 전환
-- 영어, 한국어, 일본어 README 및 기술백서 제공
-- 실제 화면 스크린샷 포함
+- Dark / light theme 지원
+- English / Korean / Japanese README 및 whitepaper 문서화
 
-## 기술 스택
+**기술 스택**  
+Next.js App Router, React, TypeScript, Tailwind CSS, OpenAI Responses API, diff
 
-- Next.js App Router
-- React
-- TypeScript
-- Tailwind CSS
-- OpenAI Responses API
-- diff
+**링크**
 
-## 기술백서
-
-- [한국어 기술백서](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-ko.md)
-- [English Whitepaper](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-en.md)
-- [日本語ホワイトペーパー](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-ja.md)
-
-## Links
-
-- Demo: [https://tos-change-tracker.vercel.app/](https://tos-change-tracker.vercel.app/)
-- GitHub: [https://github.com/hyeonjo00/tos-change-tracker](https://github.com/hyeonjo00/tos-change-tracker)
-
-## 프로젝트 포인트
-
-이 프로젝트는 약관 변경 모니터링 제품의 핵심 파이프라인을 작고 투명하게 구현한 프로토타입입니다. 현재는 URL fetch, 텍스트 정규화, diff 생성, AI 요약 흐름에 집중하며, 향후 데이터베이스 기반 스냅샷 저장과 예약 모니터링으로 확장할 수 있도록 설계했습니다.
-
+- Demo: https://tos-change-tracker.vercel.app/
+- GitHub: https://github.com/hyeonjo00/tos-change-tracker
 
 ---
 
-## AI 코드 리뷰
+### AI Code Review
 
-![AI 코드 리뷰 화면](https://ai-code-review-lac-seven.vercel.app/screenshots/ai-code-review.png)
+![AI Code Review screenshot](https://ai-code-review-lac-seven.vercel.app/screenshots/ai-code-review.png)
 
-AI 코드 리뷰는 OpenAI API를 활용해 JavaScript 또는 TypeScript 코드를 분석하고, 문제점과 개선 아이디어, 수정 예시 코드를 제공하는 Next.js 기반 웹 애플리케이션입니다. 사용자는 코드를 붙여 넣고 버튼을 누르는 것만으로 구조화된 AI 리뷰 결과를 받을 수 있습니다.
+JavaScript 또는 TypeScript 코드를 OpenAI API로 분석하고 구조화된 리뷰를 반환하는 Next.js 웹 애플리케이션입니다.
 
-### 주요 기능
+**주요 기능**
 
-- 코드 입력 후 AI 리뷰 요청
-- 문제점, 개선점, 수정 예시 코드 제공
+- 붙여넣은 코드에 대한 AI 리뷰 요청
+- 이슈, 개선 아이디어, 수정 코드 예시 제공
 - 리뷰 결과 클립보드 복사
-- 샘플 코드 불러오기
-- 서버 라우트 핸들러를 통한 OpenAI API 키 보호
-- README 스크린샷과 기술백서 문서화
+- 데모용 sample code 로드
+- 서버 측 route handler로 OpenAI API key 보호
+- README screenshot 및 technical whitepaper 문서화
 
-### 기술 스택
-
+**기술 스택**  
 Next.js 16, React 19, TypeScript, Tailwind CSS, OpenAI Responses API, react-syntax-highlighter
 
-### 기술백서
+**링크**
 
-- [한국어 기술백서](https://github.com/hyeonjo00/ai-code-review/blob/main/docs/TECHNICAL_WHITEPAPER.ko.md)
-- [English Technical Whitepaper](https://github.com/hyeonjo00/ai-code-review/blob/main/docs/TECHNICAL_WHITEPAPER.en.md)
-
-### 링크
-
-- Repository: [GitHub](https://github.com/hyeonjo00/ai-code-review)
-- Demo: [https://ai-code-review-lac-seven.vercel.app/](https://ai-code-review-lac-seven.vercel.app/)
-
+- Repository: https://github.com/hyeonjo00/ai-code-review
+- Demo: https://ai-code-review-lac-seven.vercel.app/
 
 ---
 
 ### Premium JavaFX Blackjack Simulator
+
 JavaFX로 만든 프리미엄 데스크톱 블랙잭 시뮬레이터입니다. 실시간 전략 분석, 고급 게임 액션, 카지노 스타일 애니메이션 UI를 제공합니다.
 
 **주요 기능**
+
 - 실시간 AI 전략 분석
 - Hit / Stand / Double / Split 지원
-- 기대 EV, 버스트 위험도, 딜러 버스트 확률 표시
-- 세션 저장 / 불러오기 및 통계 내보내기
-- 애니메이션 딜링 플로우가 있는 프리미엄 카지노 테이블 UI
-- 멀티 핸드 Split 지원 및 추천 정확도 추적
+- Expected EV, bust risk, dealer bust chance 표시
+- Session save / load 및 stats export
+- 애니메이션 dealing flow가 있는 casino-style table UI
+- Multi-hand split 및 recommendation accuracy tracking
 
-**기술**  
+**기술 스택**  
 Java, JavaFX, FXML, CSS
 
-#### 플레이 쇼케이스
+#### Gameplay Showcase
 
-**프리미엄 테이블 테마**
+**Premium Table Theme**
 
 ![Theme Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_starttheme.gif)
 
-**Hit / Stand 의사결정 흐름**
+**Hit / Stand Decision Flow**
 
 ![Hit Stand Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_hitstand.gif)
 
-**Double Down 액션**
+**Double Down Action**
 
 ![Double Down Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_doubledown.gif)
 
-**Split 핸드 관리**
+**Split Hand Management**
 
 ![Split Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_split.gif)
 
-#### 문서
-
-Blackjack Engine 아키텍처, EV 전략 로직, Split 재귀 처리, UI 상태 동기화, 최적화 로드맵을 다룬 소프트웨어 엔지니어링 기술백서입니다.
-
-- [영문 기술백서 PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
-- [국문 기술백서 PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
-
 **링크**
+
 - GitHub: https://github.com/hyeonjo00/blackjack-engine-java
 
 ---
 
-### MiniDB Studio
-순수 C로 만든 경량 데이터베이스 관리 스튜디오입니다.
+### llama.cpp Local LLM Bridge
 
-재사용 가능한 스토리지 엔진, B+ Tree 인덱싱, WAL 스타일 복구, raylib 기반 네이티브 데스크톱 UI를 결합한 프로젝트입니다.
+Oracle Cloud VM 위에 배포한 셀프호스팅 로컬 LLM 브리지입니다. GGUF 모델, llama.cpp 런타임, Docker 호환 컨테이너 배포, HTTP 추론 API, 브라우저 기반 검증 흐름을 하나의 재현 가능한 시스템으로 연결했습니다.
+
+이 프로젝트는 모델 실행과 실제 제품 접근 사이의 브리지 계층에 집중합니다. 모델 아티팩트 마운트, 컨테이너화된 런타임 실행, 외부 네트워크 노출, API 검증, Web UI 테스트, 시스템 수준의 C++ 런타임 설계를 함께 다룹니다.
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/llm-oci-server">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/llm-oci-server/main/docs/screenshots/web_ui.png" alt="llama.cpp Local LLM Bridge Web UI" width="100%" />
+  </a>
+</p>
+
+**주요 기능**
+
+- Oracle Cloud VM 위에 셀프호스팅 로컬 LLM 브리지 구축
+- llama.cpp `llama-server`와 마운트된 GGUF 모델을 HTTP 기반 추론 API로 연결
+- GGUF 모델을 이미지 내부에 포함하지 않고 외부 런타임 아티팩트로 마운트
+- 브라우저에서 접근 가능한 Web UI와 `/completion` API 엔드포인트 제공
+- 서버 로그, curl 요청, API 응답, 스크린샷을 통해 실제 실행 결과 검증
+- 프로세스 바인딩, 컨테이너 포트 게시, 호스트 방화벽, OCI VCN 인그레스 규칙까지 네트워크 요구사항 문서화
+- Docker/Podman 명령 차이, shell quoting 문제, 모델 마운트, proxy 기반 screenshot 문제 등 실제 실패 사례 보존
+- SSE `/generate`, `EnginePool`, RAII worker lease 관리, llama.cpp binding layer를 갖춘 custom C++ bridge runtime 설계
+- architect → implementer → reviewer workflow를 통해 C++ callback ownership과 worker lease lifetime 문제 해결
+
+**기술 스택**  
+C++, llama.cpp, GGUF, CMake, Docker, Linux, Oracle Cloud Infrastructure, HTTP API, SSE Streaming
+
+**아키텍처**
+
+- `llama-server`가 `/models/model.gguf`를 로드하고 Web UI와 `/completion` 제공
+- Docker 호환 컨테이너가 `0.0.0.0:8080:8080`으로 포트 게시
+- OCI VM 네트워크에서 firewall과 VCN ingress rule을 통해 외부 TCP 8080 접근 허용
+- Custom bridge runtime은 HTTP/SSE server, engine pool, inference facade, llama.cpp binding 분리
+- llama.cpp binding layer가 C++ runtime code와 model execution 연결
+- RAII lease 처리로 streaming, timeout, client disconnect 상황에서도 worker checkout/release 동작 보호
+
+**문서**
+
+- [English README](https://github.com/hyeonjo00/llm-oci-server/blob/main/README.md)
+- [Korean README](https://github.com/hyeonjo00/llm-oci-server/blob/main/README.ko.md)
+- [English Whitepaper](https://github.com/hyeonjo00/llm-oci-server/blob/main/docs/whitepaper_en.md)
+- [Korean Whitepaper](https://github.com/hyeonjo00/llm-oci-server/blob/main/docs/whitepaper_ko.md)
+
+**링크**
+
+- GitHub: https://github.com/hyeonjo00/llm-oci-server
+
+---
+
+### MiniDB Studio
+
+순수 C로 만든 lightweight database management studio입니다.
 
 <p align="center">
   <a href="https://github.com/hyeonjo00/c-mini-db-engine">
@@ -324,18 +357,13 @@ Blackjack Engine 아키텍처, EV 전략 로직, Split 재귀 처리, UI 상태 
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C-C11-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C11" />
-  <img src="https://img.shields.io/badge/UI-raylib-1F2937?style=for-the-badge" alt="raylib" />
-  <img src="https://img.shields.io/badge/Engine-B%2B%20Tree%20%2B%20WAL-60A5FA?style=for-the-badge" alt="B+ Tree and WAL" />
-</p>
-
 **주요 기능**
-- 순수 C11 스토리지 엔진과 별도 네이티브 데스크톱 UI로 구성된 2계층 구조
-- `id`, `department` 해시 인덱스와 `id`, `age` B+ Tree 인덱스
-- exact lookup, range scan, ordered traversal을 위한 경량 쿼리 옵티마이저
-- CSV snapshot + WAL replay 기반 복구 모델
-- SQL 작업 공간, 결과 그리드, 인덱스 탐색기, 스토리지 브라우저, 성능 대시보드를 갖춘 Studio 스타일 워크플로우
+
+- Pure C11 storage engine과 native desktop UI로 분리된 two-layer architecture
+- `id`, `department` hash index와 `id`, `age` B+ Tree index
+- exact lookup, range scan, ordered traversal을 위한 lightweight query optimizer
+- CSV snapshot + WAL replay recovery model
+- SQL workspace, result grid, index explorer, storage browser, performance dashboard를 갖춘 studio-style desktop workflow
 
 <p align="center">
   <a href="https://github.com/hyeonjo00/c-mini-db-engine">
@@ -344,6 +372,7 @@ Blackjack Engine 아키텍처, EV 전략 로직, Split 재귀 처리, UI 상태 
 </p>
 
 **링크**
+
 - Repository: https://github.com/hyeonjo00/c-mini-db-engine
 - README: https://github.com/hyeonjo00/c-mini-db-engine/blob/main/README.md
 - Whitepaper EN: https://github.com/hyeonjo00/c-mini-db-engine/blob/main/docs/minidb-studio-algorithm-whitepaper-en.pdf
@@ -352,76 +381,80 @@ Blackjack Engine 아키텍처, EV 전략 로직, Split 재귀 처리, UI 상태 
 
 ### PySnake
 
-Python과 Ursina 엔진으로 개발된 2D 스네이크 서바이벌 게임으로, AI 적과 동적인 게임 루프를 특징으로 합니다.
+Python과 Ursina로 만든 2D snake survival game입니다. AI-driven enemies와 dynamic gameplay loop를 포함합니다.
 
 <p align="center">
   <a href="https://github.com/hyeonjo00/pysnake">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/pysnake/main/docs/screenshots/gameplay.png" alt="PySnake 게임플레이 미리보기" width="100%" />
-  </a>
-</p>
-
-**핵심 기능**
-- 부드러운 뱀 이동 및 몸체 추적 시스템
-- 쥐 형태의 먹이 시스템
-- 플레이어를 추적하는 사냥꾼 AI
-- 점수 및 콤보 기반 생존 구조
-- 깔끔한 2D 탑다운 게임 플레이
-- 가독성을 개선한 UI 리디자인
-
-**기술 스택**
-Python, Ursina Engine
-
-**문서**
-- [기술 백서 (EN)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_en.md)
-- [기술 백서 (KO)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_ko.md)
-
-**링크**
-- GitHub: https://github.com/hyeonjo00/pysnake
----
-
-### Python Hybrid Search Engine
-TF-IDF 키워드 검색, 임베딩 기반 의미 검색, 하이브리드 랭킹을 결합한 Python 기반 프로덕션 지향 검색 엔진입니다.
-
-<p align="center">
-  <a href="https://github.com/hyeonjo00/hybrid-search-engine">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/hybrid-search-engine/main/docs/screenshots/hybrid-search-ui.png" alt="Hybrid Search UI 스크린샷" width="100%" />
+    <img src="https://raw.githubusercontent.com/hyeonjo00/pysnake/main/docs/screenshots/gameplay.png" alt="PySnake gameplay preview" width="100%" />
   </a>
 </p>
 
 **주요 기능**
-- Unicode-aware 전처리를 사용하는 TF-IDF 키워드 검색
-- `sentence-transformers` 기반 의미 검색
-- weighted score fusion과 Reciprocal Rank Fusion 기반 하이브리드 랭킹
-- 중복 문서의 원본 인덱스와 문서 정체성 보존
-- subprocess 기반 모델 로딩으로 parent process hang 위험 차단
-- strict `local_files_only` 기반 오프라인/local model 지원
-- checksum 검증과 atomic write를 사용하는 content-addressed embedding cache
-- 대용량 corpus encoding과 tokenizer length check를 위한 file-based IPC
-- corpus 입력, embedding, score, `top_k`에 대한 엄격한 검증
-- Unicode, 기술 토큰, cache 안전성, 오프라인 동작, IPC timeout 위험에 대한 회귀 테스트
+
+- body-following system 기반 smooth snake movement
+- mouse-based food system
+- chasing AI를 가진 hunter enemies
+- score, combo, survival mechanics
+- 깔끔한 2D top-down gameplay structure
+- 가독성을 개선한 modern UI redesign
+
+**기술 스택**  
+Python, Ursina Engine
+
+**링크**
+
+- GitHub: https://github.com/hyeonjo00/pysnake
+
+---
+
+### Python Hybrid Search Engine
+
+TF-IDF keyword search, embedding-based semantic search, configurable hybrid ranking을 결합한 production-focused Python hybrid search engine입니다.
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/hybrid-search-engine">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/hybrid-search-engine/main/docs/screenshots/hybrid-search-ui.png" alt="Hybrid Search UI screenshot" width="100%" />
+  </a>
+</p>
+
+**주요 기능**
+
+- Unicode-aware preprocessing 기반 TF-IDF keyword retrieval
+- `sentence-transformers` 기반 embedding semantic search
+- weighted score fusion 및 Reciprocal Rank Fusion 기반 hybrid ranking
+- original index 기반 duplicate document identity 보존
+- subprocess-based loading을 통한 semantic model isolation
+- strict `local_files_only` 기반 offline/local model support
+- checksum validation 및 atomic write를 갖춘 content-addressed embedding cache
+- large corpus encoding과 tokenizer length check를 위한 file-based IPC
+- corpus input, embeddings, scores, `top_k`에 대한 robust validation
+- Unicode, technical tokens, cache safety, offline behavior, IPC timeout risk regression tests
 
 **기술 스택**  
 Python, scikit-learn, NumPy, sentence-transformers, Hugging Face, pytest
 
 **아키텍처**
-- `preprocess.py`: Unicode-aware tokenization과 configurable stopword removal 처리
-- `keyword_search.py`: TF-IDF keyword search와 top-k 최적화 구현
-- `semantic_search.py`: subprocess-isolated embedding search, cache safety, offline model behavior 관리
-- `hybrid_search.py`: keyword score와 semantic score를 configurable fusion 방식으로 결합
-- `_model_loader.py`: `SentenceTransformer` 모델 로딩과 encoding을 parent process에서 분리
+
+- `preprocess.py`: Unicode-aware tokenization 및 configurable stopword removal
+- `keyword_search.py`: TF-IDF keyword search와 top-k optimization
+- `semantic_search.py`: subprocess-isolated embedding search, cache safety, offline model behavior
+- `hybrid_search.py`: keyword score와 semantic score를 configurable fusion method로 결합
+- `_model_loader.py`: `SentenceTransformer` model loading과 encoding을 parent process에서 격리
 
 **링크**
+
 - GitHub: https://github.com/hyeonjo00/hybrid-search-engine
 
-## GitHub 통계
+---
+
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hyeonjo00&show_icons=true&theme=tokyonight" />
 </p>
 
-## 사용 언어
+## Top Languages
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&theme=tokyonight&langs_count=8" />
 </p>
-
