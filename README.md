@@ -330,7 +330,6 @@ Premium software engineering whitepapers covering the Blackjack Engine architect
 
 ---
 
----
 
 ### llama.cpp Local LLM Bridge
 
@@ -375,7 +374,7 @@ C++, llama.cpp, GGUF, CMake, Docker, Linux, Oracle Cloud Infrastructure, HTTP AP
 **Links**
 - GitHub: https://github.com/hyeonjo00/llm-oci-server
 
-
+---
 
 
 ### MiniDB Studio
