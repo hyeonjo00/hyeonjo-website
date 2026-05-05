@@ -51,11 +51,22 @@ Recently, I have been working with Next.js, TypeScript, Prisma, PostgreSQL, Redi
   <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
 </p>
 
+### Systems & Runtime
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,cmake,docker,linux" />
+  <img src="https://img.shields.io/badge/SSE_Streaming-2563EB?style=for-the-badge&logo=serverless&logoColor=white" alt="SSE Streaming" />
+  <img src="https://img.shields.io/badge/RAII-111827?style=for-the-badge&logo=cplusplus&logoColor=white" alt="RAII" />
+</p>
+
 ### AI & LLM
 <p>
   <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
 </p>
+  <img src="https://img.shields.io/badge/llama.cpp-111827?style=for-the-badge&logo=cplusplus&logoColor=white" alt="llama.cpp" />
+  <img src="https://img.shields.io/badge/GGUF_Model-374151?style=for-the-badge&logo=ollama&logoColor=white" alt="GGUF Model" />
+  <img src="https://img.shields.io/badge/Local_LLM-0F766E?style=for-the-badge&logo=linux&logoColor=white" alt="Local LLM" />
+
 
 ### Search & Retrieval
 <p>
@@ -79,6 +90,15 @@ Recently, I have been working with Next.js, TypeScript, Prisma, PostgreSQL, Redi
   <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
   <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
 </p>
+
+### Deployment & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=vercel,docker,linux,git,github,vscode,npm" />
+  <img src="https://img.shields.io/badge/Oracle_Cloud-FF0000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud" />
+  <img src="https://img.shields.io/badge/OCI_VM-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI VM" />
+</p>
+
+
 
 ### Browser & Extensions
 <p>
@@ -309,6 +329,49 @@ Premium software engineering whitepapers covering the Blackjack Engine architect
 - GitHub: https://github.com/hyeonjo00/blackjack-engine-java
 
 ---
+---
+
+### llama.cpp Local LLM Server
+
+Self-hosted local LLM server deployed on an Oracle Cloud VM, using llama.cpp, GGUF models, Docker-compatible containers, and HTTP-based inference.
+
+This project documents a real local LLM deployment path from model artifact management to container execution, public network exposure, API verification, Web UI testing, and systems-level runtime design.
+
+<p align="center">
+  <a href="https://github.com/hyeonjo00/llm-project">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/llm-project/main/docs/screenshots/web_ui.png" alt="llama.cpp Local LLM Server Web UI" width="100%" />
+  </a>
+</p>
+
+**Highlights**
+- Deployed a llama.cpp `llama-server` instance on an Oracle Cloud VM
+- Mounted a GGUF model as an external runtime artifact instead of baking it into the image
+- Exposed a browser-accessible Web UI and `/completion` HTTP inference API
+- Verified real execution with server logs, curl requests, API responses, and screenshots
+- Documented OCI networking requirements across process binding, container port publishing, host firewall, and cloud ingress rules
+- Preserved failure cases including Docker/Podman command differences, shell quoting issues, model mounting, and proxy-related screenshot problems
+- Built a custom C++ runtime prototype with SSE `/generate`, `EnginePool`, RAII worker lease management, and llama.cpp bridge layering
+- Used an architect → implementer → reviewer workflow to resolve C++ callback ownership and worker lease lifetime issues
+
+**Tech**  
+C++, llama.cpp, GGUF, CMake, Docker, Linux, Oracle Cloud Infrastructure, HTTP API, SSE Streaming
+
+**Architecture**
+- `llama-server` loads `/models/model.gguf` and serves Web UI plus `/completion`
+- Docker-compatible container publishes `0.0.0.0:8080:8080`
+- OCI VM networking allows external TCP 8080 access through firewall and VCN ingress rules
+- Custom runtime separates HTTP/SSE server, engine pool, inference facade, and llama.cpp bindings
+- RAII lease handling protects worker checkout/release behavior during streaming, timeout, and disconnect paths
+
+**Documentation**
+- [English README](https://github.com/hyeonjo00/llm-project/blob/main/README.md)
+- [Korean README](https://github.com/hyeonjo00/llm-project/blob/main/README.ko.md)
+- [English Whitepaper](https://github.com/hyeonjo00/llm-project/blob/main/docs/whitepaper_en.md)
+- [Korean Whitepaper](https://github.com/hyeonjo00/llm-project/blob/main/docs/whitepaper_ko.md)
+
+**Links**
+- GitHub: https://github.com/hyeonjo00/llm-project
+
 
 ### MiniDB Studio
 A lightweight database management studio built in pure C.
