@@ -329,38 +329,39 @@ Premium software engineering whitepapers covering the Blackjack Engine architect
 - GitHub: https://github.com/hyeonjo00/blackjack-engine-java
 
 ---
----
 
-### llama.cpp Local LLM Server
+### llama.cpp Local LLM Bridge
 
-Self-hosted local LLM server deployed on an Oracle Cloud VM, using llama.cpp, GGUF models, Docker-compatible containers, and HTTP-based inference.
+Self-hosted local LLM bridge deployed on an Oracle Cloud VM, connecting a GGUF model, llama.cpp runtime, Docker-compatible deployment, HTTP inference, and browser-based testing into one reproducible system.
 
-This project documents a real local LLM deployment path from model artifact management to container execution, public network exposure, API verification, Web UI testing, and systems-level runtime design.
+This project focuses on the bridge layer between model execution and real product access: model artifact mounting, containerized runtime execution, public network exposure, API verification, Web UI validation, and systems-level C++ runtime design.
 
 <p align="center">
   <a href="https://github.com/hyeonjo00/llm-project">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/llm-project/main/docs/screenshots/web_ui.png" alt="llama.cpp Local LLM Server Web UI" width="100%" />
+   <img src="https://github.com/hyeonjo00/llm-project/blob/master/docs/screenshots/web_ui.png?raw=true" alt="llama.cpp Local LLM Bridge Web UI" width="100%" />
   </a>
 </p>
 
 **Highlights**
-- Deployed a llama.cpp `llama-server` instance on an Oracle Cloud VM
-- Mounted a GGUF model as an external runtime artifact instead of baking it into the image
-- Exposed a browser-accessible Web UI and `/completion` HTTP inference API
+- Built a self-hosted local LLM bridge on an Oracle Cloud VM
+- Connected llama.cpp `llama-server` with a mounted GGUF model and HTTP-based inference access
+- Mounted the GGUF model as an external runtime artifact instead of baking it into the image
+- Exposed a browser-accessible Web UI and `/completion` API endpoint
 - Verified real execution with server logs, curl requests, API responses, and screenshots
-- Documented OCI networking requirements across process binding, container port publishing, host firewall, and cloud ingress rules
-- Preserved failure cases including Docker/Podman command differences, shell quoting issues, model mounting, and proxy-related screenshot problems
-- Built a custom C++ runtime prototype with SSE `/generate`, `EnginePool`, RAII worker lease management, and llama.cpp bridge layering
+- Documented OCI networking across process binding, container port publishing, host firewall, and cloud ingress rules
+- Preserved real failure cases including Docker/Podman command differences, shell quoting issues, model mounting, and proxy-related screenshot problems
+- Designed a custom C++ bridge runtime with SSE `/generate`, `EnginePool`, RAII worker lease management, and llama.cpp binding layers
 - Used an architect → implementer → reviewer workflow to resolve C++ callback ownership and worker lease lifetime issues
 
 **Tech**  
 C++, llama.cpp, GGUF, CMake, Docker, Linux, Oracle Cloud Infrastructure, HTTP API, SSE Streaming
 
 **Architecture**
-- `llama-server` loads `/models/model.gguf` and serves Web UI plus `/completion`
+- `llama-server` loads `/models/model.gguf` and exposes Web UI plus `/completion`
 - Docker-compatible container publishes `0.0.0.0:8080:8080`
-- OCI VM networking allows external TCP 8080 access through firewall and VCN ingress rules
-- Custom runtime separates HTTP/SSE server, engine pool, inference facade, and llama.cpp bindings
+- OCI VM networking opens external TCP 8080 access through firewall and VCN ingress rules
+- Custom bridge runtime separates HTTP/SSE server, engine pool, inference facade, and llama.cpp bindings
+- llama.cpp binding layer connects C++ runtime code to model execution
 - RAII lease handling protects worker checkout/release behavior during streaming, timeout, and disconnect paths
 
 **Documentation**
@@ -371,6 +372,7 @@ C++, llama.cpp, GGUF, CMake, Docker, Linux, Oracle Cloud Infrastructure, HTTP AP
 
 **Links**
 - GitHub: https://github.com/hyeonjo00/llm-project
+
 
 
 ### MiniDB Studio
