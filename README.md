@@ -330,6 +330,8 @@ Premium software engineering whitepapers covering the Blackjack Engine architect
 
 ---
 
+---
+
 ### llama.cpp Local LLM Bridge
 
 Self-hosted local LLM bridge deployed on an Oracle Cloud VM, connecting a GGUF model, llama.cpp runtime, Docker-compatible deployment, HTTP inference, and browser-based testing into one reproducible system.
@@ -337,8 +339,8 @@ Self-hosted local LLM bridge deployed on an Oracle Cloud VM, connecting a GGUF m
 This project focuses on the bridge layer between model execution and real product access: model artifact mounting, containerized runtime execution, public network exposure, API verification, Web UI validation, and systems-level C++ runtime design.
 
 <p align="center">
-  <a href="https://github.com/hyeonjo00/llm-project">
-   <img src="https://github.com/hyeonjo00/llm-project/blob/master/docs/screenshots/web_ui.png?raw=true" alt="llama.cpp Local LLM Bridge Web UI" width="100%" />
+  <a href="https://github.com/hyeonjo00/llm-oci-server">
+    <img src="https://raw.githubusercontent.com/hyeonjo00/llm-oci-server/main/docs/screenshots/web_ui.png" alt="llama.cpp Local LLM Bridge Web UI" width="100%" />
   </a>
 </p>
 
@@ -365,13 +367,14 @@ C++, llama.cpp, GGUF, CMake, Docker, Linux, Oracle Cloud Infrastructure, HTTP AP
 - RAII lease handling protects worker checkout/release behavior during streaming, timeout, and disconnect paths
 
 **Documentation**
-- [English README](https://github.com/hyeonjo00/llm-project/blob/main/README.md)
-- [Korean README](https://github.com/hyeonjo00/llm-project/blob/main/README.ko.md)
-- [English Whitepaper](https://github.com/hyeonjo00/llm-project/blob/main/docs/whitepaper_en.md)
-- [Korean Whitepaper](https://github.com/hyeonjo00/llm-project/blob/main/docs/whitepaper_ko.md)
+- [English README](https://github.com/hyeonjo00/llm-oci-server/blob/main/README.md)
+- [Korean README](https://github.com/hyeonjo00/llm-oci-server/blob/main/README.ko.md)
+- [English Whitepaper](https://github.com/hyeonjo00/llm-oci-server/blob/main/docs/whitepaper_en.md)
+- [Korean Whitepaper](https://github.com/hyeonjo00/llm-oci-server/blob/main/docs/whitepaper_ko.md)
 
 **Links**
-- GitHub: https://github.com/hyeonjo00/llm-project
+- GitHub: https://github.com/hyeonjo00/llm-oci-server
+
 
 
 
