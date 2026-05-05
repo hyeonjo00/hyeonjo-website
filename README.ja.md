@@ -9,7 +9,7 @@
 <h1 align="center">Hyeonjo Kim</h1>
 
 <p align="center">
-  AIプロダクト、Webプラットフォーム、開発者ツール、デスクトップアプリ、システム系プロジェクトを作るソフトウェアエンジニアです。
+  AI プロダクト、Web プラットフォーム、開発者ツール、デスクトップアプリ、システムレベルのプロジェクトを作るソフトウェアエンジニアです。
 </p>
 
 <p align="center">
@@ -22,42 +22,59 @@
 
 ---
 
-## About
+## 概要
 
-プロダクト思考、システム設計、AI-driven workflows を組み合わせた end-to-end のソフトウェアシステムを開発しています。
+私は、プロダクト思考、システム設計、AI 駆動のワークフローを組み合わせた end-to-end のソフトウェアシステムを構築しています。
 
-主に注力している領域:
-- スケーラブルなバックエンドアーキテクチャ設計: queues, pipelines, async systems
-- 本番環境を意識した AI アプリケーション開発
-- TF-IDF、embeddings、hybrid ranking、caching、offline model execution を活用した信頼性の高い検索・retrieval システム設計
-- 優れた UX を備えた洗練されたユーザー向けプロダクト開発
+主な関心領域は次のとおりです。
 
-フロントエンドインターフェースからバックエンドインフラまで full stack 全体で開発し、信頼性、observability、スケーラビリティを重視しています。
+- キュー、パイプライン、非同期システムを用いたスケーラブルなバックエンドアーキテクチャ設計
+- 実運用を意識した AI アプリケーション開発
+- TF-IDF、埋め込み、ハイブリッドランキング、キャッシュ、オフラインモデル実行を活用した検索・検索基盤の設計
+- 優れた UX を持つ完成度の高いユーザー向けプロダクト開発
+- llama.cpp、GGUF、Docker、Oracle Cloud Infrastructure を使ったセルフホスト型ローカル LLM インフラ構築
 
-最近は Next.js、TypeScript、Prisma、PostgreSQL、Redis、BullMQ、LLM APIs (OpenAI, Claude)、Python retrieval systems を使って、実用的な AI プロダクトと検索インフラを構築しています。
+フロントエンド UI からバックエンドインフラまでフルスタックで開発し、信頼性、可観測性、拡張性を重視しています。
+
+最近は Next.js、TypeScript、Prisma、PostgreSQL、Redis、BullMQ、OpenAI、Claude、Python 検索システム、llama.cpp、Docker、Oracle Cloud Infrastructure を使って、実用的な AI プロダクトと検索インフラを構築しています。
 
 ---
 
 ## 技術スタック
 
-### フロントエンド
+### Frontend
+
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
 </p>
 
-### バックエンド、データベース & キュー
+### Backend, Database & Queue
+
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,redis" />
   <img src="https://img.shields.io/badge/BullMQ-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="BullMQ" />
 </p>
 
+### Systems & Runtime
+
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,cmake,docker,linux" />
+  <img src="https://img.shields.io/badge/SSE_Streaming-2563EB?style=for-the-badge&logo=serverless&logoColor=white" alt="SSE Streaming" />
+  <img src="https://img.shields.io/badge/RAII-111827?style=for-the-badge&logo=cplusplus&logoColor=white" alt="RAII" />
+</p>
+
 ### AI & LLM
+
 <p>
   <img src="https://img.shields.io/badge/OpenAI_API-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/llama.cpp-111827?style=for-the-badge&logo=cplusplus&logoColor=white" alt="llama.cpp" />
+  <img src="https://img.shields.io/badge/GGUF_Model-374151?style=for-the-badge&logo=ollama&logoColor=white" alt="GGUF Model" />
+  <img src="https://img.shields.io/badge/Local_LLM-0F766E?style=for-the-badge&logo=linux&logoColor=white" alt="Local LLM" />
 </p>
 
-### 検索 & Retrieval
+### Search & Retrieval
+
 <p>
   <img src="https://skillicons.dev/icons?i=python" />
   <img src="https://img.shields.io/badge/TF--IDF-111827?style=for-the-badge&logo=python&logoColor=white" alt="TF-IDF" />
@@ -68,36 +85,42 @@
   <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111827" alt="Hugging Face" />
 </p>
 
-### ゲーム開発
+### Game Development
+
 <p>
   <img src="https://img.shields.io/badge/Ursina-111827?style=for-the-badge&logo=python&logoColor=white" alt="Ursina" />
 </p>
 
-### デスクトップ & システム
+### Desktop & Systems
+
 <p>
   <img src="https://skillicons.dev/icons?i=java,c" />
   <img src="https://img.shields.io/badge/JavaFX-1F2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX" />
   <img src="https://img.shields.io/badge/raylib-111827?style=for-the-badge&logo=c&logoColor=white" alt="raylib" />
 </p>
 
-### ブラウザ & 拡張機能
+### Browser & Extensions
+
 <p>
   <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
   <img src="https://img.shields.io/badge/Manifest_V3-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
 </p>
 
-### デプロイ & ツール
-<p>
-  <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" />
-</p>
+### Deployment & Tools
 
+<p>
+  <img src="https://skillicons.dev/icons?i=vercel,docker,linux,git,github,vscode,npm" />
+  <img src="https://img.shields.io/badge/Oracle_Cloud-FF0000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud" />
+  <img src="https://img.shields.io/badge/OCI_VM-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI VM" />
+</p>
 
 ---
 
-## Projects
+## プロジェクト
 
 ### Chat Paper AI
-KakaoTalk、Instagram DM、LINE、AI会話ログを、学術論文スタイルのリサーチ文書へ変換する韓国語ファーストのAI SaaSプラットフォームです。
+
+KakaoTalk、Instagram DM、LINE、AI 会話ログを学術論文スタイルの文書に変換する、韓国語中心の AI SaaS プラットフォームです。
 
 <p align="center">
   <a href="https://chat-paper-platform-iota.vercel.app/">
@@ -105,184 +128,150 @@ KakaoTalk、Instagram DM、LINE、AI会話ログを、学術論文スタイル�
   </a>
 </p>
 
-**主な機能**
-- KakaoTalk `.zip` / `.txt`、Instagram DM、LINE、AI会話ログのアップロードに対応
-- 会話データを解析、匿名化し、AI論文生成パイプラインで処理
-- タイトル、要旨、序論、研究方法、結果、考察、結論を含む学術文書を生成
-- 韓国語 / 英語 / 日本語のUIと論文生成フローに対応
-- ログイン不要のゲストベースワークフロー
-- 生成結果を確認できるリサーチダッシュボードと進行状態UI
-- ジャーナル風の論文リーダーとエクスポート重視のUX
-- 元のアップロードファイルを永続保存しないプライバシー重視設計
+**主な特徴**
 
-**Backend Engineering**
-- Next.js API Routes、Redis、BullMQ、Prisma、PostgreSQL、独立したNode.js Workerによる非同期生成パイプラインを構築
-- アップロード / 分析APIではDBアクセス前にRedis preflight rate limitを実行し、ゲスト利用におけるDB DoSリスクを軽減
-- 長時間のAI論文生成処理はAPIで直接実行せず、BullMQキューとWorkerで処理
-- PostgreSQLの`idempotencyKey`とBullMQの`jobId`に同一のSHA-256キーを使用し、重複生成を防止
-- Prisma Serializable transactionにより、quota確認、Paper作成、Job作成を原子的に処理
-- Workerにはhard timeout、OpenAI request timeout、exponential backoff + jitter retry、graceful shutdownを実装
-- Redis上のjob stateを確認してからstuck jobを復旧し、重複実行を防止
-- ZIPアップロードではContent-Length検証、entry数制限、entryごとのサイズ制限、総展開サイズ制限を実装
+- KakaoTalk `.zip` / `.txt`、Instagram DM、LINE、AI 会話ログのアップロードに対応
+- 会話メッセージを解析、匿名化、保存してから AI 論文を生成
+- タイトル、要旨、序論、方法、結果、考察、結論を含む論文全体を生成
+- 韓国語 / 英語 / 日本語の UI と論文生成フローに対応
+- ログイン不要の guest-first ワークフロー
+- 生成された論文インサイトと進行状態を表示する研究ダッシュボード
+- export を意識した journal-style academic paper reader
+- 元アップロードファイルを永続保存しない privacy-conscious 設計
 
-**Tech**  
+**バックエンドエンジニアリング**
+
+- Next.js API Routes、Redis、BullMQ、Prisma、PostgreSQL、独立 Node.js worker による非同期生成パイプライン
+- Upload / analyze route で DB アクセス前に Redis preflight rate limiting を適用
+- 長時間の論文生成処理を API request から切り離し、BullMQ queue で処理
+- PostgreSQL と BullMQ `jobId` が共有する deterministic SHA-256 idempotency key を使用
+- Prisma Serializable transaction により quota check と重複論文生成を保護
+- Worker に hard job timeout、OpenAI request timeout、exponential backoff + jitter retry、graceful shutdown を実装
+- Redis job state 確認による stuck job recovery で重複実行を防止
+- ZIP upload validation に content-length、entry count、per-entry cap、total uncompressed size limit を適用
+
+**技術スタック**  
 Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, Redis, BullMQ, OpenAI API, Node.js Worker, Vercel, Fly.io
 
-**Documentation**
-- [Technical Whitepaper (EN)](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-en.md)
-- [Technical Whitepaper (KO)](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-ko.md)
+**ドキュメント**
 
-**Links**
+- [Technical Whitepaper EN](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-en.md)
+- [Technical Whitepaper KO](https://github.com/hyeonjo00/chat-paper-platform/blob/main/docs/chat-paper-ai-technical-whitepaper-ko.md)
+
+**リンク**
+
 - Demo: https://chat-paper-platform-iota.vercel.app/
 - GitHub: https://github.com/hyeonjo00/chat-paper-platform
-
 
 ---
 
 ### Chart Insight Assistant
-AI を活用した株式・暗号資産チャートスクリーンショット分析 SaaS。
 
-Chart Insight Assistant は、ユーザーが市場チャートのスクリーンショットをアップロードし、OpenAI による慎重なシナリオベース分析を実行して、構造化されたトレードインサイトをダークテーマ UI で確認できる Next.js アプリケーションです。
+株式・暗号資産チャートのスクリーンショットを分析する AI ベースのチャート分析 SaaS です。
 
 <p align="center">
   <a href="https://chart-insight-assistant.vercel.app">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/home.png" alt="Chart Insight Assistant ホーム画面" width="100%" />
+    <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/home.png" alt="Chart Insight Assistant home preview" width="100%" />
   </a>
 </p>
 
-**主な機能**
-- ドラッグアンドドロップによるチャートスクリーンショットアップロード
-- PNG、JPG、JPEG、WEBP 画像のプレビューとファイル検証
-- サーバーサイド OpenAI チャート分析 API ルート
-- 構造化された分析結果: Bias、Confidence、Entry Zone、Invalidation Zone、Take Profit Targets、Summary
-- 将来の価格変動を保証しない慎重なシナリオベースの市場解釈
-- `localStorage` によるローカル分析履歴の保存
-- クリーンなダークテーマのレスポンシブ UI
-- Google AdSense 対応の収益化構成
-- `ads.txt` サイト認証対応
-- 英語 / 韓国語 / 日本語 README および技術ホワイトペーパー
+**主な特徴**
+
+- ドラッグ＆ドロップによるチャートスクリーンショットアップロード
+- PNG、JPG、JPEG、WEBP 画像のプレビューと検証
+- Server-side OpenAI chart analysis API route
+- bias、confidence、entry zone、invalidation zone、take-profit targets、summary の構造化出力
+- 確定的な予測ではなく、慎重なシナリオベースの市場解釈
+- `localStorage` によるローカル分析履歴保存
+- responsive dark-themed UI
+- Google AdSense-ready な収益化構造
+- English / Korean / Japanese README と technical whitepaper documentation
 
 #### プロダクト画面
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analyze.png" alt="Chart Insight Assistant アップロード画面" width="49%" />
-  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analysis-result.png" alt="Chart Insight Assistant 分析結果画面" width="49%" />
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analyze.png" alt="Chart Insight Assistant upload screen" width="49%" />
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/analysis-result.png" alt="Chart Insight Assistant analysis result" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/history.png" alt="Chart Insight Assistant 履歴画面" width="100%" />
+  <img src="https://raw.githubusercontent.com/hyeonjo00/chart-insight-assistant/main/public/readme/history.png" alt="Chart Insight Assistant history screen" width="100%" />
 </p>
 
 **技術スタック**  
 Next.js, TypeScript, Tailwind CSS, OpenAI API, Vercel, Google AdSense
 
-**アーキテクチャ**
-- `app/api/analyze/route.ts`: サーバーサイド OpenAI 画像分析リクエストを処理
-- `components/chart-upload-panel.tsx`: アップロード、プレビュー、API 送信、結果表示、ローカル履歴保存を管理
-- `lib/analysis-history.ts`: 完了した分析結果をブラウザ `localStorage` に保存
-- `components/ad-banner.tsx`: 再利用可能な AdSense 対応広告スロットを提供
-- `docs/`: 多言語技術ホワイトペーパーを収録
-
-**技術ホワイトペーパー**
-- English: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/docs/technical-whitepaper-en.md
-- Korean: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/docs/technical-whitepaper-ko.md
-- Japanese: https://github.com/hyeonjo00/chart-insight-assistant/blob/main/docs/technical-whitepaper-ja.md
-
 **リンク**
+
 - Demo: https://chart-insight-assistant.vercel.app
 - GitHub: https://github.com/hyeonjo00/chart-insight-assistant
-- README: https://github.com/hyeonjo00/chart-insight-assistant
-
 
 ---
 
-# ToS Change Tracker
+### ToS Change Tracker
 
 ![ToS Change Tracker Screenshot](https://raw.githubusercontent.com/hyeonjo00/tos-change-tracker/main/public/readme/home.png)
 
-ToS Change Tracker は、利用規約、プライバシーポリシー、その他のユーザー向けポリシー文書の変更を確認するための Next.js 製 AI プロトタイプです。ユーザーが公開ポリシー URL を入力すると、サーバーがページを取得し、HTML を読みやすいテキストへ正規化し、行単位の diff を生成します。OpenAI API キーが設定されている場合は、変更内容の要約と Low、Medium、High のリスク分析も行います。
+利用規約、プライバシーポリシー、ユーザー向けポリシー文書の変更をレビューする AI-assisted Next.js prototype です。
 
-## 主な機能
+**主な特徴**
 
-- ポリシー URL 入力とサーバー側 HTML fetch
-- script、style、HTML タグを除去したテキスト正規化
-- `diff` パッケージによる行単位の変更比較
+- Policy URL input と server-side HTML fetching
+- script、style、HTML tag 除去による text normalization
+- `diff` package による line-level document diff
 - OpenAI Responses API による変更要約とリスク分析
-- ダーク/ライトテーマ切り替え
-- 英語、韓国語、日本語の README と技術ホワイトペーパー
-- ポートフォリオ用の実画面スクリーンショット
+- Dark / light theme 対応
+- English / Korean / Japanese README と whitepaper documentation
 
-## 技術スタック
+**技術スタック**  
+Next.js App Router, React, TypeScript, Tailwind CSS, OpenAI Responses API, diff
 
-- Next.js App Router
-- React
-- TypeScript
-- Tailwind CSS
-- OpenAI Responses API
-- diff
+**リンク**
 
-## 技術ホワイトペーパー
-
-- [日本語ホワイトペーパー](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-ja.md)
-- [English Whitepaper](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-en.md)
-- [韓国語ホワイトペーパー](https://github.com/hyeonjo00/tos-change-tracker/blob/main/docs/tos-change-tracker-technical-whitepaper-ko.md)
-
-## Links
-
-- Demo: [https://tos-change-tracker.vercel.app/](https://tos-change-tracker.vercel.app/)
-- GitHub: [https://github.com/hyeonjo00/tos-change-tracker](https://github.com/hyeonjo00/tos-change-tracker)
-
-## プロジェクトの特徴
-
-このプロジェクトは、ポリシー変更監視プロダクトの中核となるパイプラインを小さく透明に実装したプロトタイプです。現在は URL fetch、テキスト正規化、diff 生成、AI 要約に集中しており、将来的にはデータベースベースのスナップショット保存や定期監視へ拡張できる構成になっています。
-
+- Demo: https://tos-change-tracker.vercel.app/
+- GitHub: https://github.com/hyeonjo00/tos-change-tracker
 
 ---
 
-## AIコードレビュー
+### AI Code Review
 
-![AIコードレビュー画面](https://ai-code-review-lac-seven.vercel.app/screenshots/ai-code-review.png)
+![AI Code Review screenshot](https://ai-code-review-lac-seven.vercel.app/screenshots/ai-code-review.png)
 
-AIコードレビューは、OpenAI APIを使ってJavaScriptまたはTypeScriptのコードを分析し、問題点、改善案、修正版コードを返すNext.jsベースのWebアプリケーションです。ユーザーはコードを貼り付けてレビューを実行するだけで、整理されたAIフィードバックを確認できます。
+JavaScript または TypeScript コードを OpenAI API で分析し、構造化されたレビューを返す Next.js Web アプリケーションです。
 
-### 主な機能
+**主な特徴**
 
-- 貼り付けたコードのAIレビュー
-- 問題点、改善案、修正版コードの生成
-- レビュー結果のクリップボードコピー
-- サンプルコードの読み込み
-- サーバー側ルートハンドラーによるOpenAI APIキーの保護
-- READMEスクリーンショットと技術ホワイトペーパーを含むドキュメント
+- 貼り付けたコードに対する AI review request
+- issues、improvement ideas、revised code example を提供
+- review output を clipboard にコピー
+- デモ用 sample code のロード
+- server-side route handler による OpenAI API key 保護
+- README screenshot と technical whitepaper documentation
 
-### 技術スタック
-
+**技術スタック**  
 Next.js 16, React 19, TypeScript, Tailwind CSS, OpenAI Responses API, react-syntax-highlighter
 
-### 技術ホワイトペーパー
+**リンク**
 
-- [English Technical Whitepaper](https://github.com/hyeonjo00/ai-code-review/blob/main/docs/TECHNICAL_WHITEPAPER.en.md)
-- [韓国語 技術ホワイトペーパー](https://github.com/hyeonjo00/ai-code-review/blob/main/docs/TECHNICAL_WHITEPAPER.ko.md)
-
-### リンク
-
-- Repository: [GitHub](https://github.com/hyeonjo00/ai-code-review)
-- Demo: [https://ai-code-review-lac-seven.vercel.app/](https://ai-code-review-lac-seven.vercel.app/)
-
+- Repository: https://github.com/hyeonjo00/ai-code-review
+- Demo: https://ai-code-review-lac-seven.vercel.app/
 
 ---
 
 ### Premium JavaFX Blackjack Simulator
-JavaFXで構築したプレミアムデスクトップBlackjackシミュレーターです。リアルタイム戦略分析、高度なゲームアクション、カジノ風のアニメーションUIを備えています。
 
-**Highlights**
-- リアルタイムAI戦略分析
+JavaFX で構築したプレミアムデスクトップ Blackjack simulator です。リアルタイム戦略分析、高度なゲームアクション、カジノスタイルのアニメーション UI を提供します。
+
+**主な特徴**
+
+- リアルタイム AI strategy analysis
 - Hit / Stand / Double / Split 対応
-- 期待EV、バーストリスク、ディーラーのバースト確率を表示
-- セッション保存 / 読み込みと統計エクスポート
-- アニメーション付きカード配布フローを備えたプレミアムカジノ風UI
-- マルチハンドSplit対応と推薦精度トラッキング
+- Expected EV、bust risk、dealer bust chance 表示
+- Session save / load と stats export
+- animated dealing flow を備えた casino-style table UI
+- Multi-hand split と recommendation accuracy tracking
 
-**Tech**  
+**技術スタック**  
 Java, JavaFX, FXML, CSS
 
 #### Gameplay Showcase
@@ -303,128 +292,12 @@ Java, JavaFX, FXML, CSS
 
 ![Split Demo](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/screenshots/balckjack_split.gif)
 
-#### Documentation
+**リンク**
 
-Blackjack Engineのアーキテクチャ、EV戦略ロジック、Split再帰処理、UI状態同期、最適化ロードマップをまとめたソフトウェアエンジニアリング技術白書です。
-
-- [English Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper.pdf)
-- [Korean Whitepaper PDF](https://raw.githubusercontent.com/hyeonjo00/blackjack-engine-java/main/docs/premium-javafx-blackjack-engine-whitepaper-ko.pdf)
-
-**Links**
 - GitHub: https://github.com/hyeonjo00/blackjack-engine-java
 
 ---
 
-### MiniDB Studio
-Pure Cで構築した軽量データベース管理スタジオです。
+### llama.cpp Local LLM Bridge
 
-再利用可能なストレージエンジン、B+ Treeインデックス、WAL風リカバリ、raylibベースのネイティブデスクトップUIを組み合わせたプロジェクトです。
-
-<p align="center">
-  <a href="https://github.com/hyeonjo00/c-mini-db-engine">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/c-mini-db-engine/main/docs/studio-overview.svg" alt="MiniDB Studio overview" width="100%" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C-C11-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C11" />
-  <img src="https://img.shields.io/badge/UI-raylib-1F2937?style=for-the-badge" alt="raylib" />
-  <img src="https://img.shields.io/badge/Engine-B%2B%20Tree%20%2B%20WAL-60A5FA?style=for-the-badge" alt="B+ Tree and WAL" />
-</p>
-
-**Highlights**
-- Pure C11のストレージエンジンと独立したネイティブデスクトップUIによる2層アーキテクチャ
-- `id`、`department` のHash indexと、`id`、`age` のB+ Tree index
-- exact lookup、range scan、ordered traversalに対応した軽量クエリオプティマイザ
-- CSV snapshot + WAL replayによるリカバリモデル
-- SQLワークスペース、結果グリッド、インデックスエクスプローラー、ストレージブラウザー、パフォーマンスダッシュボードを備えたStudio型ワークフロー
-
-<p align="center">
-  <a href="https://github.com/hyeonjo00/c-mini-db-engine">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/c-mini-db-engine/main/docs/studio-benchmark.svg" alt="MiniDB Studio benchmark dashboard" width="100%" />
-  </a>
-</p>
-
-**Links**
-- Repository: https://github.com/hyeonjo00/c-mini-db-engine
-- README: https://github.com/hyeonjo00/c-mini-db-engine/blob/main/README.md
-- Whitepaper EN: https://github.com/hyeonjo00/c-mini-db-engine/blob/main/docs/minidb-studio-algorithm-whitepaper-en.pdf
-
----
-
-### PySnake
-
-PythonとUrsinaエンジンで開発された2Dスネークサバイバルゲームで、AI敵とダイナミックなゲームプレイを特徴としています。
-
-<p align="center">
-  <a href="https://github.com/hyeonjo00/pysnake">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/pysnake/main/docs/screenshots/gameplay.png" alt="PySnake ゲームプレイプレビュー" width="100%" />
-  </a>
-</p>
-
-**主な特徴**
-- スムーズなスネーク移動とボディ追従システム
-- マウス型の餌システム
-- プレイヤーを追跡するハンターAI
-- スコアおよびコンボベースのサバイバル構造
-- クリーンな2Dトップダウンゲームプレイ
-- 読みやすさを向上させたUIリデザイン
-
-**技術スタック**
-Python, Ursina Engine
-
-**ドキュメント**
-- [技術ホワイトペーパー (EN)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_en.md)
-- [技術ホワイトペーパー (KO)](https://github.com/hyeonjo00/pysnake/blob/main/docs/whitepaper_ko.md)
-
-**リンク**
-- GitHub: https://github.com/hyeonjo00/pysnake
-- ---
-
-### Python Hybrid Search Engine
-TF-IDF キーワード検索、埋め込みベースのセマンティック検索、ハイブリッドランキングを組み合わせた Python 製の本番志向検索エンジンです。
-
-<p align="center">
-  <a href="https://github.com/hyeonjo00/hybrid-search-engine">
-    <img src="https://raw.githubusercontent.com/hyeonjo00/hybrid-search-engine/main/docs/screenshots/hybrid-search-ui.png" alt="Hybrid Search UI スクリーンショット" width="100%" />
-  </a>
-</p>
-
-**主な機能**
-- Unicode-aware 前処理を使った TF-IDF キーワード検索
-- `sentence-transformers` によるセマンティック検索
-- weighted score fusion と Reciprocal Rank Fusion によるハイブリッドランキング
-- 重複ドキュメントの元インデックスとドキュメント ID の保持
-- subprocess ベースのモデル読み込みによる parent process hang リスクの低減
-- strict `local_files_only` によるオフライン/local model 対応
-- checksum 検証と atomic write を備えた content-addressed embedding cache
-- 大規模 corpus encoding と tokenizer length check のための file-based IPC
-- corpus 入力、embedding、score、`top_k` に対する厳格な検証
-- Unicode、技術用語 token、cache 安全性、オフライン動作、IPC timeout リスクの回帰テスト
-
-**技術スタック**  
-Python, scikit-learn, NumPy, sentence-transformers, Hugging Face, pytest
-
-**アーキテクチャ**
-- `preprocess.py`: Unicode-aware tokenization と configurable stopword removal を処理
-- `keyword_search.py`: TF-IDF keyword search と top-k 最適化を実装
-- `semantic_search.py`: subprocess-isolated embedding search、cache safety、offline model behavior を管理
-- `hybrid_search.py`: keyword score と semantic score を configurable fusion 方式で統合
-- `_model_loader.py`: `SentenceTransformer` のモデル読み込みと encoding を parent process から分離
-
-**リンク**
-- GitHub: https://github.com/hyeonjo00/hybrid-search-engine
-
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hyeonjo00&show_icons=true&theme=tokyonight" />
-</p>
-
-## Top Languages
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hyeonjo00&layout=compact&theme=tokyonight&langs_count=8" />
-</p>
-
+Oracle Cloud VM 上にデプロイしたセルフホスト型ローカル LLM ブリッジです。GGUF モ
